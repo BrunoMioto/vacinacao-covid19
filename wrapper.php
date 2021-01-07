@@ -12,9 +12,30 @@ $result = [];
 foreach($source_array as $data) {
     $country = $data[0];
     $iso_code_alpha3 = strtolower($data[1]);
-    if(empty($iso_code_alpha3) && ($country == 'England' || $country == 'Northern Ireland' || $country == 'Scotland' || $country == 'Wales')) {
-        $iso_code_alpha3 = 'gbr';
+
+    switch ($country) {
+        case 'England':
+            $country_pt = 'Inglaterra';
+            $iso_code_alpha3 = 'gbr';
+            $alpha2 = 'gb';
+            break;
+        case 'Northern Ireland':
+            $country_pt = 'Irlanda do Norte';
+            $iso_code_alpha3 = 'gbr-nir';
+            $alpha2 = 'gb';
+            break;
+        case 'Scotland':
+            $country_pt = 'Escócia';
+            $iso_code_alpha3 = 'gbr-sct';
+            $alpha2 = 'gb';
+            break;
+        case 'Wales':
+            $country_pt = 'País de Gales';
+            $iso_code_alpha3 = 'gbr-wls';
+            $alpha2 = 'gb';
+            break;
     }
+
     $vaccines = explode(', ',$data[2]);
     $last_observation_date = $data[3];
     $source_name = $data[4];
@@ -27,7 +48,7 @@ foreach($source_array as $data) {
 
     foreach($vaccinations_array as $data) {
         $location = $data[0];
-        if($location === $country) {
+        if($location == $country) {
             if(!empty($data[3])) {
                 $vaccinations_total = $data[3];
             }
@@ -37,17 +58,19 @@ foreach($source_array as $data) {
         }
     }
 
-    foreach($countries_array as $data) {
-        $name = $data->name;
-        $alpha3 = $data->alpha3;
-        if($alpha3 == $iso_code_alpha3) {
-            $country_pt = $name;
-            $alpha2 = $data->alpha2;
+    if (strpos($iso_code_alpha3, 'gbr') == FALSE) {
+        foreach($countries_array as $data) {
+            $name = $data->name;
+            $alpha3 = $data->alpha3;
+            if($alpha3 == $iso_code_alpha3) {
+                $country_pt = $name;
+                $alpha2 = $data->alpha2;
+            }
         }
     }
     $iso_code = [
         'alpha2' => $alpha2,
-        'alpha3' => $alpha3,
+        'alpha3' => $iso_code_alpha3,
     ];
     
     $push = array(
