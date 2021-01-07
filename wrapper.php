@@ -1,14 +1,22 @@
 <?php
 
-$source = file_get_contents('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/locations.csv');
+$source = file_get_contents('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/locations1.csv');
+if($source === FALSE) {
+    http_response_code(404);
+    die();
+}
+
 $source_array = array_map("str_getcsv", explode("\n", $source));
 unset($source_array[count($source_array)-1]);
 array_splice($source_array, 0, 1);
 
 $countries_array = json_decode(file_get_contents('https://raw.githubusercontent.com/stefangabos/world_countries/master/data/pt/countries.json'));
+if($countries_array === FALSE) {
+    http_response_code(404);
+    die();
+}
 
 $result = [];
-
 foreach($source_array as $data) {
     $country = $data[0];
     $iso_code_alpha3 = strtolower($data[1]);
@@ -42,6 +50,10 @@ foreach($source_array as $data) {
     $source_website = $data[5];
 
     $vaccinations = file_get_contents('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv');
+    if($vaccinations === FALSE) {
+        http_response_code(404);
+        die();
+    }
     $vaccinations_array = array_map("str_getcsv", explode("\n", $vaccinations));
     unset($vaccinations_array[count($vaccinations_array)-1]);
     array_splice($vaccinations_array, 0, 1);
