@@ -1,0 +1,695 @@
+[
+    {
+        "country": "Argentina",
+        "country_pt": "Argentina",
+        "iso_3166-1": {
+            "alpha2": "ar",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Sputnik V"
+        ],
+        "vaccinations_total": "52195",
+        "last_update_date": "2021-01-06",
+        "source_name": "Government of Argentina",
+        "source_website": "https:\/\/www.argentina.gob.ar\/noticias\/ya-se-aplicaron-52195-dosis-de-la-vacuna-contra-covid-19-al-personal-de-salud"
+    },
+    {
+        "country": "Austria",
+        "country_pt": "\u00c1ustria",
+        "iso_3166-1": {
+            "alpha2": "at",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "6000",
+        "last_update_date": "2020-12-30",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/www.orf.at\/\/stories\/3195631\/"
+    },
+    {
+        "country": "Bahrain",
+        "country_pt": "Bahrein",
+        "iso_3166-1": {
+            "alpha2": "bh",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Sinopharm"
+        ],
+        "vaccinations_total": "68472",
+        "last_update_date": "2021-01-06",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/twitter.com\/MOH_Bahrain\/status\/1346919458615554056"
+    },
+    {
+        "country": "Belgium",
+        "country_pt": "B\u00e9lgica",
+        "iso_3166-1": {
+            "alpha2": "be",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "700",
+        "last_update_date": "2021-01-02",
+        "source_name": "Government vaccination taskforce",
+        "source_website": "https:\/\/www.lecho.be\/dossiers\/coronavirus\/coronavirus-700-personnes-deja-vaccinees-en-belgique-dans-les-maisons-de-repos\/10274812.html"
+    },
+    {
+        "country": "Bulgaria",
+        "country_pt": "Bulg\u00e1ria",
+        "iso_3166-1": {
+            "alpha2": "bg",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "5448",
+        "last_update_date": "2021-01-06",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/coronavirus.bg\/bg\/statistika"
+    },
+    {
+        "country": "Canada",
+        "country_pt": "Canad\u00e1",
+        "iso_3166-1": {
+            "alpha2": "ca",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Moderna",
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "163418",
+        "last_update_date": "2021-01-05",
+        "source_name": "COVID-19 Canada Open Data Working Group",
+        "source_website": "https:\/\/github.com\/ishaberry\/Covid19Canada"
+    },
+    {
+        "country": "Chile",
+        "country_pt": "Chile",
+        "iso_3166-1": {
+            "alpha2": "cl",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "10436",
+        "last_update_date": "2021-01-06",
+        "source_name": "Department of Statistics and Health Information",
+        "source_website": "https:\/\/deis.minsal.cl\/"
+    },
+    {
+        "country": "China",
+        "country_pt": "China",
+        "iso_3166-1": {
+            "alpha2": "cn",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "CNBG",
+            "Sinovac"
+        ],
+        "vaccinations_total": "4500000",
+        "last_update_date": "2020-12-31",
+        "source_name": "National Health Commission",
+        "source_website": "https:\/\/www.globaltimes.cn\/page\/202012\/1211515.shtml"
+    },
+    {
+        "country": "Costa Rica",
+        "country_pt": "Costa Rica",
+        "iso_3166-1": {
+            "alpha2": "cr",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "2455",
+        "last_update_date": "2021-01-03",
+        "source_name": "National Health Commission",
+        "source_website": "https:\/\/www.ccss.sa.cr\/noticias\/servicios_noticia?2-455-personas-iniciaron-nuevo-ano-con-la-primera-dosis-de-la-vacuna-contra-covid-19"
+    },
+    {
+        "country": "Croatia",
+        "country_pt": "Cro\u00e1cia",
+        "iso_3166-1": {
+            "alpha2": "hr",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "13798",
+        "last_update_date": "2021-01-05",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/vlada.gov.hr\/vijesti\/nece-biti-popustanja-strogih-epidemioloskih-mjera-cetvero-clanova-stozera-javno-se-cijepili-protiv-koronavirusa\/31223"
+    },
+    {
+        "country": "Cyprus",
+        "country_pt": "Chipre",
+        "iso_3166-1": {
+            "alpha2": "cy",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "3901",
+        "last_update_date": "2021-01-06",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/cyprus-mail.com\/2021\/01\/06\/coronavirus-almost-4000-got-the-jab-since-december-27\/"
+    },
+    {
+        "country": "Czechia",
+        "country_pt": "Ch\u00e9quia",
+        "iso_3166-1": {
+            "alpha2": "cz",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "13000",
+        "last_update_date": "2021-01-04",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/ct24.ceskatelevize.cz\/domaci\/3250118-zive-brifink-ke-strategii-ockovani-a-novemu-vypoctu-pes"
+    },
+    {
+        "country": "Denmark",
+        "country_pt": "Dinamarca",
+        "iso_3166-1": {
+            "alpha2": "dk",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "63312",
+        "last_update_date": "2021-01-05",
+        "source_name": "Statens Serum Institut",
+        "source_website": "https:\/\/covid19.ssi.dk\/overvagningsdata\/vaccinationstilslutning"
+    },
+    {
+        "country": "England",
+        "country_pt": "Reino Unido",
+        "iso_3166-1": {
+            "alpha2": "gb",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "786000",
+        "last_update_date": "2020-12-27",
+        "source_name": "Government of the United Kingdom",
+        "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
+    },
+    {
+        "country": "Estonia",
+        "country_pt": "Est\u00f3nia",
+        "iso_3166-1": {
+            "alpha2": "ee",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "5009",
+        "last_update_date": "2021-01-06",
+        "source_name": "National Health Board",
+        "source_website": "https:\/\/www.terviseamet.ee\/et\/uudised"
+    },
+    {
+        "country": "Finland",
+        "country_pt": "Finl\u00e2ndia",
+        "iso_3166-1": {
+            "alpha2": "fi",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "5445",
+        "last_update_date": "2021-01-05",
+        "source_name": "Department of Health and Welfare",
+        "source_website": "https:\/\/thl.fi\/fi\/web\/infektiotaudit-ja-rokotukset\/ajankohtaista\/ajankohtaista-koronaviruksesta-covid-19\/tilannekatsaus-koronaviruksesta"
+    },
+    {
+        "country": "France",
+        "country_pt": "Fran\u00e7a",
+        "iso_3166-1": {
+            "alpha2": "fr",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "5000",
+        "last_update_date": "2021-01-05",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/twitter.com\/olivierveran\/status\/1346529841701662722"
+    },
+    {
+        "country": "Germany",
+        "country_pt": "Alemanha",
+        "iso_3166-1": {
+            "alpha2": "de",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "367331",
+        "last_update_date": "2021-01-05",
+        "source_name": "Robert Koch Institut",
+        "source_website": "https:\/\/www.rki.de\/DE\/Content\/InfAZ\/N\/Neuartiges_Coronavirus\/Daten\/Impfquoten-Tab.html"
+    },
+    {
+        "country": "Greece",
+        "country_pt": "Gr\u00e9cia",
+        "iso_3166-1": {
+            "alpha2": "gr",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "16233",
+        "last_update_date": "2021-01-05",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/www.data.gov.gr\/datasets\/mdg_emvolio\/"
+    },
+    {
+        "country": "Hungary",
+        "country_pt": "Hungria",
+        "iso_3166-1": {
+            "alpha2": "hu",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "21000",
+        "last_update_date": "2021-01-06",
+        "source_name": "Government of Hungary",
+        "source_website": "https:\/\/koronavirus.gov.hu\/cikkek\/orszagos-tisztifoorvos-eddig-csaknem-21-ezer-egeszsegugyi-dolgozot-oltottak-be"
+    },
+    {
+        "country": "Iceland",
+        "country_pt": "Isl\u00e2ndia",
+        "iso_3166-1": {
+            "alpha2": "is",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "4875",
+        "last_update_date": "2020-12-30",
+        "source_name": "Directorate of Health",
+        "source_website": "https:\/\/www.ruv.is\/frett\/2020\/12\/30\/4875-landsmenn-fengu-bolusetningu"
+    },
+    {
+        "country": "Ireland",
+        "country_pt": "Irlanda",
+        "iso_3166-1": {
+            "alpha2": "ie",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "4000",
+        "last_update_date": "2021-01-04",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/www.thejournal.ie\/covid-19-vaccine-rollout-in-nursing-homes-gets-under-way-this-week-5315501-Jan2021\/"
+    },
+    {
+        "country": "Israel",
+        "country_pt": "Israel",
+        "iso_3166-1": {
+            "alpha2": "il",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "1483600",
+        "last_update_date": "2021-01-05",
+        "source_name": "Government of Israel",
+        "source_website": "https:\/\/twitter.com\/YuliEdelstein\/status\/1346683476293124098\/photo\/1"
+    },
+    {
+        "country": "Italy",
+        "country_pt": "It\u00e1lia",
+        "iso_3166-1": {
+            "alpha2": "it",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "307182",
+        "last_update_date": "2021-01-06",
+        "source_name": "Extraordinary commissioner for the Covid-19 emergency",
+        "source_website": "https:\/\/github.com\/italia\/covid19-opendata-vaccini"
+    },
+    {
+        "country": "Kuwait",
+        "country_pt": "Kuwait",
+        "iso_3166-1": {
+            "alpha2": "kw",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "2500",
+        "last_update_date": "2020-12-28",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/alqabas.com\/article\/5828928-2500-\u0634\u062e\u0635-\u062d\u0635\u0644\u0648\u0627-\u0639\u0644\u0649-\u0644\u0642\u0627\u062d-\u0643\u0648\u0631\u0648\u0646\u0627-\u0641\u064a-\u064a\u0648\u0645\u064a\u0646?id=5828928"
+    },
+    {
+        "country": "Latvia",
+        "country_pt": "Let\u00f4nia",
+        "iso_3166-1": {
+            "alpha2": "lv",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "3803",
+        "last_update_date": "2021-01-05",
+        "source_name": "National Health Service",
+        "source_website": "http:\/\/www.vmnvd.gov.lv\/lv\/covid-19\/1486-vakcinacija-pret-covid-19"
+    },
+    {
+        "country": "Lithuania",
+        "country_pt": "Litu\u00e2nia",
+        "iso_3166-1": {
+            "alpha2": "lt",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "2270",
+        "last_update_date": "2020-12-28",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/sam.lrv.lt\/en\/news\/lithuanian-healthcare-workers-start-getting-the-covid-19-vaccine"
+    },
+    {
+        "country": "Luxembourg",
+        "country_pt": "Luxemburgo",
+        "iso_3166-1": {
+            "alpha2": "lu",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "1200",
+        "last_update_date": "2020-12-30",
+        "source_name": "Government of Luxembourg",
+        "source_website": "https:\/\/covid19.public.lu\/fr\/actualite-covid-19\/communiques\/2020\/12\/30-vaccination.html"
+    },
+    {
+        "country": "Malta",
+        "country_pt": "Malta",
+        "iso_3166-1": {
+            "alpha2": "mt",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "1400",
+        "last_update_date": "2021-01-03",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/timesofmalta.com\/articles\/view\/1400-receive-vaccine-herd-immunity-by-the-summer.842421"
+    },
+    {
+        "country": "Mexico",
+        "country_pt": "M\u00e9xico",
+        "iso_3166-1": {
+            "alpha2": "mx",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "48236",
+        "last_update_date": "2021-01-05",
+        "source_name": "Secretary of Health",
+        "source_website": "https:\/\/www.gob.mx\/salud\/prensa\/003-en-mexico-se-han-aplicado-mas-de-48-mil-vacunas-contra-covid-19?idiom=es"
+    },
+    {
+        "country": "Northern Ireland",
+        "country_pt": "Reino Unido",
+        "iso_3166-1": {
+            "alpha2": "gb",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "31016",
+        "last_update_date": "2020-12-27",
+        "source_name": "Government of the United Kingdom",
+        "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
+    },
+    {
+        "country": "Norway",
+        "country_pt": "Noruega",
+        "iso_3166-1": {
+            "alpha2": "no",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "4036",
+        "last_update_date": "2021-01-05",
+        "source_name": "Norwegian Institute of Public Health",
+        "source_website": "https:\/\/www.fhi.no\/sv\/vaksine\/koronavaksinasjonsprogrammet\/koronavaksinasjonsstatistikk\/"
+    },
+    {
+        "country": "Oman",
+        "country_pt": "Om\u00e3",
+        "iso_3166-1": {
+            "alpha2": "om",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "12751",
+        "last_update_date": "2021-01-05",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/twitter.com\/OmaniMOH\/status\/1346730906841710592"
+    },
+    {
+        "country": "Poland",
+        "country_pt": "Pol\u00f3nia",
+        "iso_3166-1": {
+            "alpha2": "pl",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "140226",
+        "last_update_date": "2021-01-06",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/twitter.com\/MZ_GOV_PL\/status\/1346760607622684673"
+    },
+    {
+        "country": "Portugal",
+        "country_pt": "Portugal",
+        "iso_3166-1": {
+            "alpha2": "pt",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "32000",
+        "last_update_date": "2021-01-03",
+        "source_name": "National Health Service",
+        "source_website": "https:\/\/expresso.pt\/sociedade\/2021-01-04-Covid-19.-32-mil-vacinados-em-Portugal-quase-um-milhao-no-Reino-Unido--onde-a-espera-pela-2.-dose-e-de-12-semanas--322-em-Franca"
+    },
+    {
+        "country": "Romania",
+        "country_pt": "Rom\u00e9nia",
+        "iso_3166-1": {
+            "alpha2": "ro",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "58554",
+        "last_update_date": "2021-01-06",
+        "source_name": "Government of Romania",
+        "source_website": "https:\/\/vaccinare-covid.gov.ro\/comunicate-oficiale\/"
+    },
+    {
+        "country": "Russia",
+        "country_pt": "R\u00fassia",
+        "iso_3166-1": {
+            "alpha2": "ru",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Sputnik V"
+        ],
+        "vaccinations_total": "800000",
+        "last_update_date": "2021-01-02",
+        "source_name": "Government of Russia",
+        "source_website": "https:\/\/tass.com\/society\/1241979"
+    },
+    {
+        "country": "Saudi Arabia",
+        "country_pt": "Ar\u00e1bia Saudita",
+        "iso_3166-1": {
+            "alpha2": "sa",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "100000",
+        "last_update_date": "2021-01-06",
+        "source_name": "Ministry of Hajj and Umrah",
+        "source_website": "https:\/\/english.alarabiya.net\/en\/coronavirus\/2021\/01\/06\/Coronavirus-Coronavirus-Saudi-Arabia-s-Hajj-Umrah-minister-advises-pilgrims-to-get-vaccinated"
+    },
+    {
+        "country": "Scotland",
+        "country_pt": "Reino Unido",
+        "iso_3166-1": {
+            "alpha2": "gb",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "92188",
+        "last_update_date": "2020-12-27",
+        "source_name": "Government of the United Kingdom",
+        "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
+    },
+    {
+        "country": "Slovakia",
+        "country_pt": "Eslov\u00e1quia",
+        "iso_3166-1": {
+            "alpha2": "sk",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "7201",
+        "last_update_date": "2021-01-04",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/korona.gov.sk\/koronavirus-na-slovensku-v-cislach\/"
+    },
+    {
+        "country": "Slovenia",
+        "country_pt": "Eslov\u00eania",
+        "iso_3166-1": {
+            "alpha2": "si",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "5934",
+        "last_update_date": "2020-12-28",
+        "source_name": "National Institute of Public Health, via Sledilnik",
+        "source_website": "https:\/\/covid-19.sledilnik.org\/en\/"
+    },
+    {
+        "country": "Spain",
+        "country_pt": "Espanha",
+        "iso_3166-1": {
+            "alpha2": "es",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "139339",
+        "last_update_date": "2021-01-05",
+        "source_name": "Ministry of Health",
+        "source_website": "https:\/\/www.mscbs.gob.es\/profesionales\/saludPublica\/ccayes\/alertasActual\/nCov\/vacunaCovid19.htm"
+    },
+    {
+        "country": "United Arab Emirates",
+        "country_pt": "Emirados \u00c1rabes Unidos",
+        "iso_3166-1": {
+            "alpha2": "ae",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Sinopharm"
+        ],
+        "vaccinations_total": "826301",
+        "last_update_date": "2021-01-05",
+        "source_name": "National Emergency Crisis and Disaster Management Authority",
+        "source_website": "https:\/\/twitter.com\/NCEMAUAE\/status\/1346504959441952768"
+    },
+    {
+        "country": "United Kingdom",
+        "country_pt": "Reino Unido",
+        "iso_3166-1": {
+            "alpha2": "gb",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "944539",
+        "last_update_date": "2020-12-27",
+        "source_name": "Government of the United Kingdom",
+        "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
+    },
+    {
+        "country": "United States",
+        "country_pt": "Estados Unidos",
+        "iso_3166-1": {
+            "alpha2": "us",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Moderna",
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "5306797",
+        "last_update_date": "2021-01-06",
+        "source_name": "Centers for Disease Control and Prevention",
+        "source_website": "https:\/\/covid.cdc.gov\/covid-data-tracker\/#vaccinations"
+    },
+    {
+        "country": "Wales",
+        "country_pt": "Reino Unido",
+        "iso_3166-1": {
+            "alpha2": "gb",
+            "alpha3": "zwe"
+        },
+        "vaccines": [
+            "Pfizer\/BioNTech"
+        ],
+        "vaccinations_total": "35335",
+        "last_update_date": "2020-12-27",
+        "source_name": "Government of the United Kingdom",
+        "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
+    }
+]
