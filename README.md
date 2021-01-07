@@ -4,7 +4,8 @@ O JSON ([owid.json](https://raw.githubusercontent.com/altendorfme/owid/main/owid
 
 - Adicionado os dados ISO 3166-1 com 2 e 3 digitos.
 - Unificado os dados totais de vacinações por país.
-- Adicionada a tradução para português dos nomes dos países.
+- Tradução para português dos países.
+- Número total de doses de vacinas por 100 pessoas na população total. Isso é contado como única dose, e pode não ser igual ao número total de pessoas vacinadas, dependendo do regime de dose específico (por exemplo, pessoas que recebem múltiplas doses).
 
 ## JSON
 ```json
@@ -20,6 +21,7 @@ O JSON ([owid.json](https://raw.githubusercontent.com/altendorfme/owid/main/owid
             "Sinovac"
         ],
         "vaccinations_total": "4500000",
+        "total_vaccinations_per_hundred": "0.31",
         "last_update_date": "2020-12-31",
         "source_name": "National Health Commission",
         "source_website": "https:\/\/www.globaltimes.cn\/page\/202012\/1211515.shtml"

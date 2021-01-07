@@ -20,13 +20,22 @@ foreach($source_array as $data) {
     $source_name = $data[4];
     $source_website = $data[5];
 
-    $vaccines_count = file_get_contents('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/country_data/'.rawurlencode($country).'.csv');
-    $vaccines_array = array_map("str_getcsv", explode("\n", $vaccines_count));
-    unset($vaccines_array[count($vaccines_array)-1]);
-    array_splice($vaccines_array, 0, 1);
+    $vaccinations = file_get_contents('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv');
+    $vaccinations_array = array_map("str_getcsv", explode("\n", $vaccinations));
+    unset($vaccinations_array[count($vaccinations_array)-1]);
+    array_splice($vaccinations_array, 0, 1);
 
-    $last_total = end($vaccines_array);
-    $vaccinations_total = $last_total[3];
+    foreach($vaccinations_array as $data) {
+        $location = $data[0];
+        if($location === $country) {
+            if(!empty($data[3])) {
+                $vaccinations_total = $data[3];
+            }
+            if(!empty($data[5])) {
+                $total_vaccinations_per_hundred = $data[5];
+            }
+        }
+    }
 
     foreach($countries_array as $data) {
         $name = $data->name;
@@ -47,6 +56,7 @@ foreach($source_array as $data) {
         'iso_3166-1' => $iso_code,
         'vaccines' => $vaccines,
         'vaccinations_total' => $vaccinations_total,
+        'total_vaccinations_per_hundred' => $total_vaccinations_per_hundred,
         'last_update_date' => $last_observation_date,
         'source_name' => $source_name,
         'source_website' => $source_website,
