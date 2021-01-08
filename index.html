@@ -189,7 +189,28 @@
 		</div>
 		<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 		<script src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/numeral@2.0.6/numeral.min.js"></script>
 		<script>
+			numeral.register('locale', 'pt-BR', {
+				delimiters: {
+					thousands: '.',
+					decimal: '.'
+				},
+				abbreviations: {
+					thousand: 'k',
+					million: 'm',
+					billion: 'b',
+					trillion: 't'
+				},
+				ordinal : function (number) {
+					return number === 1 ? 'er' : 'ème';
+				},
+				currency: {
+					symbol: 'R$'
+				}
+			});
+			numeral.locale('pt-BR');
+
 			jQuery.extend( jQuery.fn.dataTableExt.oSort, {
 				"portugues-pre": function ( data ) {
 					var a = 'a';
@@ -224,6 +245,7 @@
 						var n = i + 1;
 						var date = data.last_update_date.split('-');
 						var vaccines = '';
+						var total = numeral(data.vaccinations_total);
 						
 						$.each(data.vaccines,function(i, data){
 							var c = data.toLowerCase().replace(' ','-').replace('/','-')
@@ -236,7 +258,7 @@
 						'<td class="p-0 d-flex">'+vaccines+'</td>'+
 						'<td class="text-center">'+date[2]+'/'+date[1]+'/'+date[0]+'</td>'+
 						'<td>'+data.total_vaccinations_per_hundred+'</td>'+
-						'<td>'+data.vaccinations_total+'</td>'+
+						'<td>'+total.format('0,0')+'</td>'+
 						'</tr>');
 					});
 				})
