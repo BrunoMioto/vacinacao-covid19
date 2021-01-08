@@ -23,25 +23,30 @@ foreach($source_array as $data) {
     $iso_code_alpha3 = strtolower($data[1]);
 
     switch ($country) {
-        case 'England':
-            $country_pt = 'Inglaterra';
+        case 'United Kingdom':
+            $country_pt = 'Reino Unido';
             $iso_code_alpha3 = 'gbr';
             $alpha2 = 'gb';
+            break;
+        case 'England':
+            $country_pt = 'Inglaterra';
+            $iso_code_alpha3 = 'gbr-eng';
+            $alpha2 = 'gb-eng';
             break;
         case 'Northern Ireland':
             $country_pt = 'Irlanda do Norte';
             $iso_code_alpha3 = 'gbr-nir';
-            $alpha2 = 'gb';
+            $alpha2 = 'gb-nir';
             break;
         case 'Scotland':
             $country_pt = 'Escócia';
             $iso_code_alpha3 = 'gbr-sct';
-            $alpha2 = 'gb';
+            $alpha2 = 'gb-sct';
             break;
         case 'Wales':
             $country_pt = 'País de Gales';
             $iso_code_alpha3 = 'gbr-wls';
-            $alpha2 = 'gb';
+            $alpha2 = 'gb-wls';
             break;
     }
 
@@ -71,7 +76,7 @@ foreach($source_array as $data) {
         }
     }
 
-    if (strpos($iso_code_alpha3, 'gbr') == FALSE) {
+    if (strpos($iso_code_alpha3, 'gbr') === FALSE) {
         foreach($countries_array as $data) {
             $name = $data->name;
             $alpha3 = $data->alpha3;

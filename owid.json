@@ -211,10 +211,10 @@
     },
     {
         "country": "England",
-        "country_pt": "Reino Unido",
+        "country_pt": "Inglaterra",
         "iso_code": {
-            "alpha2": "gb",
-            "alpha3": "gbr"
+            "alpha2": "gb-eng",
+            "alpha3": "gbr-eng"
         },
         "vaccines": [
             "Pfizer\/BioNTech"
@@ -501,7 +501,7 @@
         "country": "Northern Ireland",
         "country_pt": "Irlanda do Norte",
         "iso_code": {
-            "alpha2": "gb",
+            "alpha2": "gb-nir",
             "alpha3": "gbr-nir"
         },
         "vaccines": [
@@ -629,7 +629,7 @@
         "country": "Scotland",
         "country_pt": "Esc\u00f3cia",
         "iso_code": {
-            "alpha2": "gb",
+            "alpha2": "gb-sct",
             "alpha3": "gbr-sct"
         },
         "vaccines": [
@@ -758,7 +758,7 @@
         "country": "Wales",
         "country_pt": "Pa\u00eds de Gales",
         "iso_code": {
-            "alpha2": "gb",
+            "alpha2": "gb-wls",
             "alpha3": "gbr-wls"
         },
         "vaccines": [
