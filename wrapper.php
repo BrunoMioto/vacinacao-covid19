@@ -1,6 +1,6 @@
 <?php
 
-$source = file_get_contents('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/locations1.csv');
+$source = file_get_contents('https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/locations.csv');
 if($source === FALSE) {
     http_response_code(404);
     die();
@@ -88,7 +88,7 @@ foreach($source_array as $data) {
     $push = array(
         'country' => $country,
         'country_pt' => $country_pt,
-        'iso_3166-1' => $iso_code,
+        'iso_code' => $iso_code,
         'vaccines' => $vaccines,
         'vaccinations_total' => $vaccinations_total,
         'total_vaccinations_per_hundred' => $total_vaccinations_per_hundred,
