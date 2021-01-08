@@ -151,6 +151,19 @@
 					opacity: 0;
 				}
 			}
+			.table thead th {
+				vertical-align: middle;
+				border-bottom-color: #000;
+			}
+			
+			table.dataTable.table-sm .sorting:after,
+			table.dataTable.table-sm .sorting_asc:after,
+			table.dataTable.table-sm .sorting_desc:after,
+			table.dataTable.table-sm .sorting:before,
+			table.dataTable.table-sm .sorting_asc:before,
+			table.dataTable.table-sm .sorting_desc:before {
+				top: 30% !important;
+			}
 		</style>
 	</head>
 	<body>
@@ -161,14 +174,14 @@
 					<th>Local</th>
 					<th>Vacinas</th>
 					<th class="text-nowrap">Última vacinação</th>
-					<th>Percentual</th>
-					<th>Total</th>
+					<th class="text-nowrap">Doses aplicadas<br/>por 100 habitantes</th>
+					<th class="text-nowrap">Doses aplicadas</th>
 				</tr>
 			</thead>
 			<tbody>
 			</tbody>
 		</table>
-		<small class="p-2 m-0">
+		<small class="p-2 m-0 text-secondary">
 			Dados obtidos a partir de fontes oficiais. Apenas países que divulgaram o número de doses aplicadas.
 		</small>
 		<div class="loading">
@@ -177,6 +190,34 @@
 		<script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 		<script src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
 		<script>
+			jQuery.extend( jQuery.fn.dataTableExt.oSort, {
+				"portugues-pre": function ( data ) {
+					var a = 'a';
+					var e = 'e';
+					var i = 'i';
+					var o = 'o';
+					var u = 'u';
+					var c = 'c';
+					var special_letters = {
+						"Á": a, "á": a, "Ã": a, "ã": a, "À": a, "à": a,
+						"É": e, "é": e, "Ê": e, "ê": e,
+						"Í": i, "í": i, "Î": i, "î": i,
+						"Ó": o, "ó": o, "Õ": o, "õ": o, "Ô": o, "ô": o,
+						"Ú": u, "ú": u, "Ü": u, "ü": u,
+						"ç": c, "Ç": c
+					};
+					for (var val in special_letters)
+					   data = data.split(val).join(special_letters[val]).toLowerCase();
+					return data;
+				},
+				"portugues-asc": function ( a, b ) {
+					return ((a < b) ? -1 : ((a > b) ? 1 : 0));
+				},
+				"portugues-desc": function ( a, b ) {
+					return ((a < b) ? 1 : ((a > b) ? -1 : 0));
+				}
+			});
+
 			$(document).ready( function () {
 				var jqxhr = $.getJSON( "owid.json", function(data) {
 					$.each(data,function(i, data){
@@ -194,7 +235,7 @@
 						'<td><div class="d-flex align-items-center text-nowrap"><img class="d-inline-block mr-2" src="https://cdn.jsdelivr.net/gh/HatScripts/circle-flags/flags/'+data.iso_code.alpha2+'.svg" height="20" width="20" />'+data.country_pt+'</div></td>'+
 						'<td class="p-0 d-flex">'+vaccines+'</td>'+
 						'<td class="text-center">'+date[2]+'/'+date[1]+'/'+date[0]+'</td>'+
-						'<td>'+data.total_vaccinations_per_hundred+'%</td>'+
+						'<td>'+data.total_vaccinations_per_hundred+'</td>'+
 						'<td>'+data.vaccinations_total+'</td>'+
 						'</tr>');
 					});
@@ -203,9 +244,11 @@
 					$('#DataTable').DataTable( {
 						"paging": false,
 						"info": false,
+						"order": [[ 1, "asc" ]],
 						"language": {
 							url: '//cdn.datatables.net/plug-ins/1.10.22/i18n/Portuguese-Brasil.json'
-						}
+						},
+						//"columnDefs": [{ type: 'portugues', targets: 1 }]
 					});
 					$('.loading').fadeOut(500, function() {
 						$(this).remove();
