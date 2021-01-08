@@ -2,7 +2,7 @@
     {
         "country": "Argentina",
         "country_pt": "Argentina",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "ar",
             "alpha3": "arg"
         },
@@ -18,7 +18,7 @@
     {
         "country": "Austria",
         "country_pt": "\u00c1ustria",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "at",
             "alpha3": "aut"
         },
@@ -34,7 +34,7 @@
     {
         "country": "Bahrain",
         "country_pt": "Bahrein",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "bh",
             "alpha3": "bhr"
         },
@@ -50,7 +50,7 @@
     {
         "country": "Belgium",
         "country_pt": "B\u00e9lgica",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "be",
             "alpha3": "bel"
         },
@@ -66,7 +66,7 @@
     {
         "country": "Bulgaria",
         "country_pt": "Bulg\u00e1ria",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "bg",
             "alpha3": "bgr"
         },
@@ -82,7 +82,7 @@
     {
         "country": "Canada",
         "country_pt": "Canad\u00e1",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "ca",
             "alpha3": "can"
         },
@@ -99,7 +99,7 @@
     {
         "country": "Chile",
         "country_pt": "Chile",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "cl",
             "alpha3": "chl"
         },
@@ -115,7 +115,7 @@
     {
         "country": "China",
         "country_pt": "China",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "cn",
             "alpha3": "chn"
         },
@@ -132,7 +132,7 @@
     {
         "country": "Costa Rica",
         "country_pt": "Costa Rica",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "cr",
             "alpha3": "cri"
         },
@@ -148,7 +148,7 @@
     {
         "country": "Croatia",
         "country_pt": "Cro\u00e1cia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "hr",
             "alpha3": "hrv"
         },
@@ -164,7 +164,7 @@
     {
         "country": "Cyprus",
         "country_pt": "Chipre",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "cy",
             "alpha3": "cyp"
         },
@@ -180,7 +180,7 @@
     {
         "country": "Czechia",
         "country_pt": "Ch\u00e9quia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "cz",
             "alpha3": "cze"
         },
@@ -196,7 +196,7 @@
     {
         "country": "Denmark",
         "country_pt": "Dinamarca",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "dk",
             "alpha3": "dnk"
         },
@@ -212,7 +212,7 @@
     {
         "country": "England",
         "country_pt": "Reino Unido",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "gb",
             "alpha3": "gbr"
         },
@@ -228,7 +228,7 @@
     {
         "country": "Estonia",
         "country_pt": "Est\u00f3nia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "ee",
             "alpha3": "est"
         },
@@ -244,7 +244,7 @@
     {
         "country": "Finland",
         "country_pt": "Finl\u00e2ndia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "fi",
             "alpha3": "fin"
         },
@@ -260,7 +260,7 @@
     {
         "country": "France",
         "country_pt": "Fran\u00e7a",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "fr",
             "alpha3": "fra"
         },
@@ -276,7 +276,7 @@
     {
         "country": "Germany",
         "country_pt": "Alemanha",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "de",
             "alpha3": "deu"
         },
@@ -292,7 +292,7 @@
     {
         "country": "Greece",
         "country_pt": "Gr\u00e9cia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "gr",
             "alpha3": "grc"
         },
@@ -308,7 +308,7 @@
     {
         "country": "Hungary",
         "country_pt": "Hungria",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "hu",
             "alpha3": "hun"
         },
@@ -324,7 +324,7 @@
     {
         "country": "Iceland",
         "country_pt": "Isl\u00e2ndia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "is",
             "alpha3": "isl"
         },
@@ -340,7 +340,7 @@
     {
         "country": "Ireland",
         "country_pt": "Irlanda",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "ie",
             "alpha3": "irl"
         },
@@ -356,7 +356,7 @@
     {
         "country": "Israel",
         "country_pt": "Israel",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "il",
             "alpha3": "isr"
         },
@@ -372,7 +372,7 @@
     {
         "country": "Italy",
         "country_pt": "It\u00e1lia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "it",
             "alpha3": "ita"
         },
@@ -388,7 +388,7 @@
     {
         "country": "Kuwait",
         "country_pt": "Kuwait",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "kw",
             "alpha3": "kwt"
         },
@@ -404,7 +404,7 @@
     {
         "country": "Latvia",
         "country_pt": "Let\u00f4nia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "lv",
             "alpha3": "lva"
         },
@@ -420,7 +420,7 @@
     {
         "country": "Lithuania",
         "country_pt": "Litu\u00e2nia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "lt",
             "alpha3": "ltu"
         },
@@ -436,7 +436,7 @@
     {
         "country": "Luxembourg",
         "country_pt": "Luxemburgo",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "lu",
             "alpha3": "lux"
         },
@@ -452,7 +452,7 @@
     {
         "country": "Malta",
         "country_pt": "Malta",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "mt",
             "alpha3": "mlt"
         },
@@ -468,7 +468,7 @@
     {
         "country": "Mexico",
         "country_pt": "M\u00e9xico",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "mx",
             "alpha3": "mex"
         },
@@ -484,7 +484,7 @@
     {
         "country": "Netherlands",
         "country_pt": "Pa\u00edses Baixos",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "nl",
             "alpha3": "nld"
         },
@@ -500,7 +500,7 @@
     {
         "country": "Northern Ireland",
         "country_pt": "Irlanda do Norte",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "gb",
             "alpha3": "gbr-nir"
         },
@@ -516,7 +516,7 @@
     {
         "country": "Norway",
         "country_pt": "Noruega",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "no",
             "alpha3": "nor"
         },
@@ -532,7 +532,7 @@
     {
         "country": "Oman",
         "country_pt": "Om\u00e3",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "om",
             "alpha3": "omn"
         },
@@ -548,7 +548,7 @@
     {
         "country": "Poland",
         "country_pt": "Pol\u00f3nia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "pl",
             "alpha3": "pol"
         },
@@ -564,7 +564,7 @@
     {
         "country": "Portugal",
         "country_pt": "Portugal",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "pt",
             "alpha3": "prt"
         },
@@ -580,7 +580,7 @@
     {
         "country": "Romania",
         "country_pt": "Rom\u00e9nia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "ro",
             "alpha3": "rou"
         },
@@ -596,7 +596,7 @@
     {
         "country": "Russia",
         "country_pt": "R\u00fassia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "ru",
             "alpha3": "rus"
         },
@@ -612,7 +612,7 @@
     {
         "country": "Saudi Arabia",
         "country_pt": "Ar\u00e1bia Saudita",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "sa",
             "alpha3": "sau"
         },
@@ -628,7 +628,7 @@
     {
         "country": "Scotland",
         "country_pt": "Esc\u00f3cia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "gb",
             "alpha3": "gbr-sct"
         },
@@ -644,7 +644,7 @@
     {
         "country": "Slovakia",
         "country_pt": "Eslov\u00e1quia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "sk",
             "alpha3": "svk"
         },
@@ -660,7 +660,7 @@
     {
         "country": "Slovenia",
         "country_pt": "Eslov\u00eania",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "si",
             "alpha3": "svn"
         },
@@ -676,7 +676,7 @@
     {
         "country": "Spain",
         "country_pt": "Espanha",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "es",
             "alpha3": "esp"
         },
@@ -692,7 +692,7 @@
     {
         "country": "Sweden",
         "country_pt": "Su\u00e9cia",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "se",
             "alpha3": "swe"
         },
@@ -708,7 +708,7 @@
     {
         "country": "United Arab Emirates",
         "country_pt": "Emirados \u00c1rabes Unidos",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "ae",
             "alpha3": "are"
         },
@@ -724,7 +724,7 @@
     {
         "country": "United Kingdom",
         "country_pt": "Reino Unido",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "gb",
             "alpha3": "gbr"
         },
@@ -740,7 +740,7 @@
     {
         "country": "United States",
         "country_pt": "Estados Unidos",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "us",
             "alpha3": "usa"
         },
@@ -757,7 +757,7 @@
     {
         "country": "Wales",
         "country_pt": "Pa\u00eds de Gales",
-        "iso_3166-1": {
+        "iso_code": {
             "alpha2": "gb",
             "alpha3": "gbr-wls"
         },
