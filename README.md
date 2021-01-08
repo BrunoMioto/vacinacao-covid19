@@ -31,4 +31,4 @@ O JSON ([owid.json](https://raw.githubusercontent.com/altendorfme/owid/main/owid
 ## Referências
 - https://github.com/owid/covid-19-data/
 - https://github.com/stefangabos/world_countries/
-- https://github.com/HatScripts/circle-flags/
+- https://github.com/hjnilsson/country-flags/
