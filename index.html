@@ -40,19 +40,27 @@
 			html,
 			body {
 				overflow: hidden;
-				background-color: #f4f4f4
+				background-color: #f4f4f4;
+				height: 100vh;
 			}
 			body {
 				font-family: 'Roboto', sans-serif;
 				font-size: .9em;
-				padding: .5rem;
 			}
 			html {
 				height: -webkit-fill-available;
 			}
 			footer {
 				font-size: .8em;
-				line-height: 1.2em;
+			}
+			.country {
+				text-overflow: ellipsis;
+				max-width: 124px;
+			}
+			@media (min-width: 992px) {
+				.country {
+					max-width: 100%;
+				}
 			}
 			
 			/* Vaccines */
@@ -185,8 +193,9 @@
 				background: #fff;
 			}
 			.dataTables_filter {
-				margin-top: .5rem;
-				margin-bottom: .3rem;
+				margin-top: 0 !important;
+				padding-top: .5rem;
+				padding-bottom: .3rem;
 				padding-right: .5rem;
 				padding-left: .5rem;
 			}
@@ -207,6 +216,7 @@
 				border: 1px solid #ced4da;
 				border-radius: .25rem;
 				transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+				margin-left: .5rem !important;
 			}
 			.table thead th {
 				vertical-align: middle;
@@ -223,26 +233,36 @@
 			table.dataTable thead th {
 				line-height: 1.2em !important;
 			}
+			
+			.resize {
+				display: flex;
+				height: 100%;
+				flex-direction: column;
+			}
 		</style>
 	</head>
 	<body>
-		<table id="DataTable" class="display table table-sm table-striped w-100">
-			<thead>
-				<tr>
-					<th>Local</th>
-					<th>Vacinas</th>
-					<th class="text-nowrap">Última vacinação</th>
-					<th class="text-nowrap">Doses aplicadas<br/>por 100 habitantes</th>
-					<th class="text-nowrap">Doses aplicadas</th>
-				</tr>
-			</thead>
-			<tbody>
-			</tbody>
-		</table>
-		<footer class="m-0 pt-2 text-secondary ">
-			Dados obtidos a partir de fontes oficiais. Apenas países que divulgaram o número de doses aplicadas.<br/>
-			
-		</footer>
+		<div class="resize">
+			<div class="w-100 h-100 mb-auto">
+				<table id="DataTable" class="display table table-sm table-striped w-100">
+					<thead>
+						<tr>
+							<th>Local</th>
+							<th>Vacinas</th>
+							<th class="text-nowrap">Última vacinação</th>
+							<th class="text-nowrap">Doses aplicadas<br/>por 100 habitantes</th>
+							<th class="text-nowrap">Doses aplicadas</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+			<footer class="p-2">
+				Dados obtidos a partir de fontes oficiais. Apenas países que divulgaram o número de doses aplicadas.<br/>
+				Última atualização: <span class="font-weight-bold timestamp"></span>
+			</footer>
+		</div>
 		<div class="loading">
 			<div class="spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
 		</div>
@@ -250,9 +270,11 @@
 		<script src="//cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
 		<script src="//cdn.datatables.net/fixedcolumns/3.3.2/js/dataTables.fixedColumns.min.js"></script>
 		<script src="//cdn.datatables.net/fixedheader/3.1.7/js/dataTables.fixedHeader.min.js"></script>
-		<script src="//cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
+		<script src="//cdn.datatables.net/plug-ins/1.10.22/features/scrollResize/dataTables.scrollResize.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/numeral@2.0.6/numeral.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/moment@2.29.1/min/moment-with-locales.min.js"></script>
 		<script>
+			moment.locale('pt-br');
 			numeral.register('locale', 'pt-BR', {
 				delimiters: {
 					thousands: '.',
@@ -272,49 +294,14 @@
 				}
 			});
 			numeral.locale('pt-BR');
-			
-			function dataTableLoad() {
-				var hFilter = 32;
-				var hHeader = 56;
-				var hWindow = $(window).height() - 34; // 34px = padding body
-				var hFooter = $('footer').height();
-				var scrollY = hWindow - (hFilter + hFooter + hHeader);
-				
-				$('#DataTable').DataTable({
-					"destroy": true,
-					"paging": false,
-					"info": false,
-					"order": [[ 0, "asc" ]],
-					"language": {
-						url: '//cdn.datatables.net/plug-ins/1.10.22/i18n/Portuguese-Brasil.json'
-					},
-					"scrollY": scrollY+"px",
-					"scrollX": true,
-					"scrollCollapse": true,
-					"fixedHeader": true,
-					"fixedColumns":   {
-						"leftColumns": 1,
-					},
-					"initComplete": function( settings, json ) {
-						if($('.loading').length > 0) {
-							$('.loading').fadeOut(500, function() {
-								$(this).remove(); 
-							});
-						}
-					}
-				});
-			}
-			
 
 			$(document).ready( function () {
-				$(window).resize(function() {
-					dataTableLoad();
-				});
-
 				var jqxhr = $.getJSON( "owid.json", function(data) {
+					$('.timestamp').html(moment(jqxhr.getResponseHeader("Last-Modified")).format('LLL'));
+				
 					$.each(data,function(i, data){
 						var n = i + 1;
-						var date = data.last_update_date.split('-');
+
 						var vaccines = '';
 						var total = numeral(data.vaccinations_total);
 						
@@ -324,16 +311,41 @@
 						});
 
 						$('#DataTable > tbody').append('<tr>'+
-						'<td><div class="d-flex align-items-center text-nowrap"><img class="d-inline-block mr-2" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags/svg/'+data.iso_code.alpha2+'.svg" width="20" />'+data.country_pt+'</div></td>'+
+						'<td><div class="d-flex align-items-center text-nowrap"><img class="d-inline-block mr-2" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags/svg/'+data.iso_code.alpha2+'.svg" width="20" /><span class="country overflow-hidden">'+data.country_pt+'</span></div></td>'+
 						'<td class="p-0 m-0"><div class="d-flex">'+vaccines+'</div></td>'+
-						'<td class="text-center">'+date[2]+'/'+date[1]+'/'+date[0]+'</td>'+
+						'<td class="text-center">'+moment(data.last_update_date).format('L')+'</td>'+
 						'<td>'+data.total_vaccinations_per_hundred+'</td>'+
 						'<td>'+total.format('0,0')+'</td>'+
 						'</tr>');
 					});
 				})
 				.done(function(data) {
-					dataTableLoad();
+					$('#DataTable').DataTable({
+						paging: false,
+						info: false,
+						order: [[ 0, "asc" ]],
+						language: {
+							url: '//cdn.datatables.net/plug-ins/1.10.22/i18n/Portuguese-Brasil.json'
+						},
+						scrollResize: true,
+						scrollY: 100,
+						scrollX: true,
+						scrollCollapse: true,
+						fixedHeader: {
+							header: true,
+							footer: true
+						},
+						fixedColumns:   {
+							leftColumns: 1,
+						},
+						initComplete: function( settings, json ) {
+							if($('.loading').length > 0) {
+								$('.loading').fadeOut(500, function() {
+									$(this).remove(); 
+								});
+							}
+						}
+					});
 				})
 			});
 		</script>
