@@ -242,7 +242,7 @@
 						<tr>
 							<th>Local</th>
 							<th>Vacinas</th>
-							<th class="text-nowrap">Última vacinação</th>
+							<th class="text-nowrap">Última atualização</th>
 							<th class="text-nowrap">Doses aplicadas<br/>por 100 habitantes</th>
 							<th class="text-nowrap">Doses aplicadas</th>
 						</tr>
@@ -290,7 +290,7 @@
 
 			function resize() {
 				var hFooter = $('footer').innerHeight();
-				var hWindow = $(window).height();
+				var hWindow = document.body.clientHeight;
 				$('.resize').css({'height':(hWindow - hFooter)});
 			}
 			
