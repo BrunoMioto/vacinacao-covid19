@@ -266,7 +266,10 @@
 		<script src="//cdn.datatables.net/plug-ins/1.10.22/features/scrollResize/dataTables.scrollResize.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/numeral@2.0.6/numeral.min.js"></script>
 		<script src="//cdn.jsdelivr.net/npm/moment@2.29.1/min/moment-with-locales.min.js"></script>
+		<script src="//cdn.jsdelivr.net/npm/chroma-js@2.1.0/chroma.min.js"></script>
 		<script>
+			var scale = chroma.scale(['cdf5ff', '00429d']).domain([0, 100]);
+		
 			moment.locale('pt-br');
 			numeral.register('locale', 'pt-BR', {
 				delimiters: {
@@ -308,7 +311,19 @@
 
 						var vaccines = '';
 						var total = numeral(data.vaccinations_total);
+						var total_vaccinations_per_hundred = data.total_vaccinations_per_hundred;
+						var colorHex = scale(total_vaccinations_per_hundred).hex();
 						
+						var contrast_ratio = 2;
+						var white = chroma.contrast(colorHex, 'white');
+						var black = chroma.contrast(colorHex, 'black');
+						
+						if (white >= contrast_ratio) {
+							var color = "#fff";
+						} else if (black >= contrast_ratio) {
+							var color = "#000";
+						}
+
 						$.each(data.vaccines,function(i, data){
 							var c = data.toLowerCase().replace(' ','-').replace('/','-')
 							vaccines += '<div class="p-2 d-block w-100 h-100 text-center v v-'+c+'">'+data+'</div>';
@@ -318,7 +333,7 @@
 						'<td><div class="d-flex align-items-center text-nowrap"><img class="d-inline-block mr-2" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags/svg/'+data.iso_code.alpha2+'.svg" width="20" /><span class="country overflow-hidden">'+data.country_pt+'</span></div></td>'+
 						'<td class="p-0 m-0"><div class="d-flex">'+vaccines+'</div></td>'+
 						'<td class="text-center">'+moment(data.last_update_date).format('L')+'</td>'+
-						'<td>'+data.total_vaccinations_per_hundred+'</td>'+
+						'<td class="p-0 m-0"><div class="p-2 d-block w-100" style="background-color: '+colorHex+'; color: '+color+'">'+total_vaccinations_per_hundred+'</div></td>'+
 						'<td>'+total.format('0,0')+'</td>'+
 						'</tr>');
 					});
