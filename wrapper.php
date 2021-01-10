@@ -107,4 +107,4 @@ foreach($source_array as $data) {
 }
 
 $json = json_encode($result, JSON_PRETTY_PRINT);
-file_put_contents('owid.json', $json);
+file_put_contents('vacinacao-covid19.json', $json);

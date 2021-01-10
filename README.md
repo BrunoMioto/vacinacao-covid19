@@ -1,6 +1,8 @@
 # Vacinas (COVID-19) aplicadas em cada país
 
-O JSON ([owid.json](https://raw.githubusercontent.com/altendorfme/owid/main/owid.json "Our World in Data")) contém informações sobre a vacinação de COVID-19 em cada país, conforme atualização da [Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations "Our World in Data.").
+O JSON ([vacinacao-covid19.json](https://raw.githubusercontent.com/altendorfme/vacinacao-covid19/main/vacinacao-covid19.json "Our World in Data")) contém informações sobre a vacinação de COVID-19 em cada país, conforme atualização da [Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations "Our World in Data.").
+
+Para visualização dos dados acesse ([Vacinação COVID-19](https://altendorfme.github.io/vacinacao-covid19/ "Vacinação COVID-19")).
 
 - Adicionado os dados ISO 3166-1 com 2 e 3 digitos.
 - Unificado os dados totais de vacinações por país.
