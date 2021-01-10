@@ -9,11 +9,11 @@
         "vaccines": [
             "Sputnik V"
         ],
-        "vaccinations_total": "39599",
-        "total_vaccinations_per_hundred": "0.09",
-        "last_update_date": "2021-01-04",
+        "vaccinations_total": "107542",
+        "total_vaccinations_per_hundred": "0.24",
+        "last_update_date": "2021-01-08",
         "source_name": "Government of Argentina",
-        "source_website": "https:\/\/www.argentina.gob.ar\/sites\/default\/files\/informe_seguridad_en_vacunas_04_01_2021.pdf"
+        "source_website": "https:\/\/www.argentina.gob.ar\/noticias\/ya-se-aplicaron-107542-dosis-de-la-vacuna-contra-covid-19-en-el-pais"
     },
     {
         "country": "Austria",
@@ -41,11 +41,11 @@
         "vaccines": [
             "Sinopharm"
         ],
-        "vaccinations_total": "72239",
-        "total_vaccinations_per_hundred": "4.25",
-        "last_update_date": "2021-01-07",
+        "vaccinations_total": "84157",
+        "total_vaccinations_per_hundred": "4.95",
+        "last_update_date": "2021-01-09",
         "source_name": "Ministry of Health",
-        "source_website": "https:\/\/twitter.com\/MOH_Bahrain\/status\/1347269708467339264"
+        "source_website": "https:\/\/twitter.com\/MOH_Bahrain\/status\/1347998432615608325"
     },
     {
         "country": "Belgium",
@@ -57,11 +57,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "700",
-        "total_vaccinations_per_hundred": "0.01",
-        "last_update_date": "2021-01-02",
+        "vaccinations_total": "8000",
+        "total_vaccinations_per_hundred": "0.07",
+        "last_update_date": "2021-01-07",
         "source_name": "Government vaccination taskforce",
-        "source_website": "https:\/\/www.lecho.be\/dossiers\/coronavirus\/coronavirus-700-personnes-deja-vaccinees-en-belgique-dans-les-maisons-de-repos\/10274812.html"
+        "source_website": "https:\/\/www.lalibre.be\/belgique\/societe\/vaccins-en-belgique-5ff9a1dc9978e227df5eb4ec"
     },
     {
         "country": "Bulgaria",
@@ -73,9 +73,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "11117",
-        "total_vaccinations_per_hundred": "0.16",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "13473",
+        "total_vaccinations_per_hundred": "0.19",
+        "last_update_date": "2021-01-10",
         "source_name": "Ministry of Health",
         "source_website": "https:\/\/coronavirus.bg\/bg\/statistika"
     },
@@ -90,9 +90,9 @@
             "Moderna",
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "234396",
-        "total_vaccinations_per_hundred": "0.62",
-        "last_update_date": "2021-01-07",
+        "vaccinations_total": "275673",
+        "total_vaccinations_per_hundred": "0.73",
+        "last_update_date": "2021-01-08",
         "source_name": "COVID-19 Canada Open Data Working Group",
         "source_website": "https:\/\/github.com\/ishaberry\/Covid19Canada"
     },
@@ -123,11 +123,11 @@
             "CNBG",
             "Sinovac"
         ],
-        "vaccinations_total": "4500000",
-        "total_vaccinations_per_hundred": "0.31",
-        "last_update_date": "2020-12-31",
+        "vaccinations_total": "9000000",
+        "total_vaccinations_per_hundred": "0.63",
+        "last_update_date": "2021-01-09",
         "source_name": "National Health Commission",
-        "source_website": "https:\/\/www.globaltimes.cn\/page\/202012\/1211515.shtml"
+        "source_website": "http:\/\/www.scio.gov.cn\/xwfbh\/xwbfbh\/wqfbh\/44687\/44700\/zy44704\/Document\/1696668\/1696668.htm"
     },
     {
         "country": "Costa Rica",
@@ -203,8 +203,8 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "102092",
-        "total_vaccinations_per_hundred": "1.76",
+        "vaccinations_total": "112427",
+        "total_vaccinations_per_hundred": "1.94",
         "last_update_date": "2021-01-08",
         "source_name": "Statens Serum Institut",
         "source_website": "https:\/\/covid19.ssi.dk\/overvagningsdata\/vaccinationstilslutning"
@@ -219,8 +219,8 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "1092885",
-        "total_vaccinations_per_hundred": "1.94",
+        "vaccinations_total": "1112866",
+        "total_vaccinations_per_hundred": "1.98",
         "last_update_date": "2021-01-03",
         "source_name": "Government of the United Kingdom",
         "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
@@ -235,9 +235,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "7973",
-        "total_vaccinations_per_hundred": "0.6",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "10197",
+        "total_vaccinations_per_hundred": "0.77",
+        "last_update_date": "2021-01-09",
         "source_name": "National Health Board",
         "source_website": "https:\/\/www.terviseamet.ee\/et\/uudised"
     },
@@ -254,8 +254,8 @@
         "vaccinations_total": "11135",
         "total_vaccinations_per_hundred": "0.2",
         "last_update_date": "2021-01-08",
-        "source_name": "Department of Health and Welfare",
-        "source_website": "https:\/\/thl.fi\/fi\/web\/infektiotaudit-ja-rokotukset\/ajankohtaista\/ajankohtaista-koronaviruksesta-covid-19\/tilannekatsaus-koronaviruksesta"
+        "source_name": "THL via Helsingin Sanomat",
+        "source_website": "https:\/\/github.com\/HS-Datadesk\/koronavirus-avoindata"
     },
     {
         "country": "France",
@@ -283,9 +283,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "476959",
-        "total_vaccinations_per_hundred": "0.57",
-        "last_update_date": "2021-01-07",
+        "vaccinations_total": "532878",
+        "total_vaccinations_per_hundred": "0.64",
+        "last_update_date": "2021-01-08",
         "source_name": "Robert Koch Institut",
         "source_website": "https:\/\/www.rki.de\/DE\/Content\/InfAZ\/N\/Neuartiges_Coronavirus\/Daten\/Impfquoten-Tab.html"
     },
@@ -299,11 +299,27 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "34787",
-        "total_vaccinations_per_hundred": "0.33",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "40163",
+        "total_vaccinations_per_hundred": "0.39",
+        "last_update_date": "2021-01-09",
         "source_name": "Ministry of Health",
         "source_website": "https:\/\/www.data.gov.gr\/datasets\/mdg_emvolio\/"
+    },
+    {
+        "country": "Guinea",
+        "country_pt": "Guin\u00e9",
+        "iso_code": {
+            "alpha2": "gn",
+            "alpha3": "gin"
+        },
+        "vaccines": [
+            "Sputnik V"
+        ],
+        "vaccinations_total": "25",
+        "total_vaccinations_per_hundred": "0.39",
+        "last_update_date": "2020-12-30",
+        "source_name": "National Health Security Agency",
+        "source_website": "https:\/\/apnews.com\/article\/cabinets-health-guinea-coronavirus-pandemic-africa-de2adf7f939e1bb3eeedcd25aa6c4aa4"
     },
     {
         "country": "Hungary",
@@ -319,7 +335,7 @@
         "total_vaccinations_per_hundred": "0.44",
         "last_update_date": "2021-01-08",
         "source_name": "Government of Hungary",
-        "source_website": "https:\/\/koronavirus.gov.hu\/cikkek\/orban-februar-elsejeig-meghosszabbitjuk-az-eddig-fennallo-intezkedeseket"
+        "source_website": "https:\/\/koronavirus.gov.hu\/cikkek\/orszagos-tisztifoorvos-jovo-kedden-ujabb-39-ezer-ember-szamara-erkezik-oltoanyag"
     },
     {
         "country": "Iceland",
@@ -379,9 +395,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "455203",
-        "total_vaccinations_per_hundred": "0.75",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "583050",
+        "total_vaccinations_per_hundred": "0.96",
+        "last_update_date": "2021-01-09",
         "source_name": "Extraordinary commissioner for the Covid-19 emergency",
         "source_website": "https:\/\/github.com\/italia\/covid19-opendata-vaccini"
     },
@@ -411,9 +427,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "5354",
-        "total_vaccinations_per_hundred": "0.28",
-        "last_update_date": "2021-01-07",
+        "vaccinations_total": "6583",
+        "total_vaccinations_per_hundred": "0.35",
+        "last_update_date": "2021-01-09",
         "source_name": "National Health Service",
         "source_website": "http:\/\/www.vmnvd.gov.lv\/lv\/covid-19\/1486-vakcinacija-pret-covid-19"
     },
@@ -427,11 +443,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "2270",
-        "total_vaccinations_per_hundred": "0.08",
-        "last_update_date": "2020-12-28",
+        "vaccinations_total": "22191",
+        "total_vaccinations_per_hundred": "0.82",
+        "last_update_date": "2021-01-08",
         "source_name": "Ministry of Health",
-        "source_website": "https:\/\/sam.lrv.lt\/en\/news\/lithuanian-healthcare-workers-start-getting-the-covid-19-vaccine"
+        "source_website": "https:\/\/ls-osp-sdg.maps.arcgis.com\/apps\/opsdashboard\/index.html#\/b7063ad3f8c149d394be7f043dfce460"
     },
     {
         "country": "Luxembourg",
@@ -475,11 +491,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "58402",
+        "vaccinations_total": "67468",
         "total_vaccinations_per_hundred": "0.05",
-        "last_update_date": "2021-01-07",
+        "last_update_date": "2021-01-08",
         "source_name": "Secretary of Health",
-        "source_website": "https:\/\/www.gob.mx\/salud\/prensa\/005-vacunas-contra-covid-19-son-gratuitas-no-se-pueden-comercializar-ricardo-cortes-alcala?idiom=es"
+        "source_website": "https:\/\/www.gob.mx\/salud\/prensa\/version-estenografica-conferencia-de-prensa-informe-diario-sobre-coronavirus-covid-19-en-mexico-260915?idiom=es"
     },
     {
         "country": "Netherlands",
@@ -491,11 +507,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "15000",
-        "total_vaccinations_per_hundred": "0.09",
-        "last_update_date": "2021-01-07",
+        "vaccinations_total": "30000",
+        "total_vaccinations_per_hundred": "0.18",
+        "last_update_date": "2021-01-09",
         "source_name": "National Institute for Public Health and the Environment",
-        "source_website": "https:\/\/www.lnaz.nl\/nieuws\/inmiddels-15000-medewerkers-in-de-acute-zorg-gevaccineerd"
+        "source_website": "https:\/\/www.zeelandnet.nl\/nieuws\/inmiddels-30000-medewerkers-acute-zorg-gevaccineerd"
     },
     {
         "country": "Northern Ireland",
@@ -507,8 +523,8 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "40685",
-        "total_vaccinations_per_hundred": "2.15",
+        "vaccinations_total": "41956",
+        "total_vaccinations_per_hundred": "2.22",
         "last_update_date": "2021-01-03",
         "source_name": "Government of the United Kingdom",
         "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
@@ -539,11 +555,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "14911",
+        "vaccinations_total": "14980",
         "total_vaccinations_per_hundred": "0.29",
-        "last_update_date": "2021-01-07",
+        "last_update_date": "2021-01-08",
         "source_name": "Ministry of Health",
-        "source_website": "https:\/\/twitter.com\/OmaniMOH\/status\/1347450057151410177"
+        "source_website": "https:\/\/twitter.com\/OmaniMOH\/status\/1347813396448686081"
     },
     {
         "country": "Poland",
@@ -587,9 +603,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "92706",
-        "total_vaccinations_per_hundred": "0.48",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "102301",
+        "total_vaccinations_per_hundred": "0.53",
+        "last_update_date": "2021-01-09",
         "source_name": "Government of Romania",
         "source_website": "https:\/\/vaccinare-covid.gov.ro\/comunicate-oficiale\/"
     },
@@ -635,7 +651,7 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "113459",
+        "vaccinations_total": "113495",
         "total_vaccinations_per_hundred": "2.08",
         "last_update_date": "2021-01-03",
         "source_name": "Government of the United Kingdom",
@@ -667,9 +683,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "16339",
-        "total_vaccinations_per_hundred": "0.79",
-        "last_update_date": "2021-01-07",
+        "vaccinations_total": "19523",
+        "total_vaccinations_per_hundred": "0.94",
+        "last_update_date": "2021-01-08",
         "source_name": "National Institute of Public Health, via Sledilnik",
         "source_website": "https:\/\/covid-19.sledilnik.org\/en\/"
     },
@@ -715,9 +731,9 @@
         "vaccines": [
             "Sinopharm"
         ],
-        "vaccinations_total": "941556",
-        "total_vaccinations_per_hundred": "9.52",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "1020349",
+        "total_vaccinations_per_hundred": "10.32",
+        "last_update_date": "2021-01-10",
         "source_name": "National Emergency Crisis and Disaster Management Authority",
         "source_website": "https:\/\/covid19.ncema.gov.ae\/en"
     },
@@ -731,8 +747,8 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "1296432",
-        "total_vaccinations_per_hundred": "1.91",
+        "vaccinations_total": "1317745",
+        "total_vaccinations_per_hundred": "1.94",
         "last_update_date": "2021-01-03",
         "source_name": "Government of the United Kingdom",
         "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
@@ -748,9 +764,9 @@
             "Moderna",
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "5919418",
-        "total_vaccinations_per_hundred": "1.79",
-        "last_update_date": "2021-01-07",
+        "vaccinations_total": "6688231",
+        "total_vaccinations_per_hundred": "2.02",
+        "last_update_date": "2021-01-08",
         "source_name": "Centers for Disease Control and Prevention",
         "source_website": "https:\/\/covid.cdc.gov\/covid-data-tracker\/#vaccinations"
     },
@@ -764,7 +780,7 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "49403",
+        "vaccinations_total": "49428",
         "total_vaccinations_per_hundred": "1.57",
         "last_update_date": "2021-01-03",
         "source_name": "Government of the United Kingdom",
