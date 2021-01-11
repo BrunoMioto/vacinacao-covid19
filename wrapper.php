@@ -10,8 +10,7 @@ $source_array = array_map("str_getcsv", explode("\n", $source));
 unset($source_array[count($source_array)-1]);
 array_splice($source_array, 0, 1);
 
-// https://raw.githubusercontent.com/stefangabos/world_countries/master/data/pt/countries.json
-$countries_array = json_decode(file_get_contents('countries.json'));
+$countries_array = json_decode(file_get_contents('https://raw.githubusercontent.com/stefangabos/world_countries/master/data/pt/countries.json'));
 if($countries_array === FALSE) {
     http_response_code(404);
     die();
