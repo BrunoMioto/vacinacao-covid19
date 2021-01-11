@@ -37,9 +37,9 @@ Para visualização dos dados acesse ([Vacinação COVID-19](https://altendorfme
 
 ### Visualização
 - https://github.com/hjnilsson/country-flags/
-- https://github.com/jquery/jquery
+- https://github.com/jquery/jquery/
 - https://github.com/gka/chroma.js/
 - https://github.com/moment/moment/
-- https://github.com/adamwdraper/Numeral-js
-- https://github.com/DataTables/DataTables
-- https://github.com/twbs/bootstrap
+- https://github.com/adamwdraper/Numeral-js/
+- https://github.com/twbs/bootstrap/
+- https://github.com/wenzhixin/bootstrap-table
