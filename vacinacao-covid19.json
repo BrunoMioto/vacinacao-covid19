@@ -204,9 +204,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "114926",
-        "total_vaccinations_per_hundred": "1.98",
-        "last_update_date": "2021-01-09",
+        "vaccinations_total": "115932",
+        "total_vaccinations_per_hundred": "2",
+        "last_update_date": "2021-01-10",
         "source_name": "Statens Serum Institut",
         "source_website": "https:\/\/covid19.ssi.dk\/overvagningsdata\/vaccinationstilslutning"
     },
@@ -252,9 +252,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "11135",
-        "total_vaccinations_per_hundred": "0.2",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "14196",
+        "total_vaccinations_per_hundred": "0.26",
+        "last_update_date": "2021-01-11",
         "source_name": "THL via Helsingin Sanomat",
         "source_website": "https:\/\/github.com\/HS-Datadesk\/koronavirus-avoindata"
     },
@@ -300,9 +300,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "44080",
-        "total_vaccinations_per_hundred": "0.42",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "49645",
+        "total_vaccinations_per_hundred": "0.48",
+        "last_update_date": "2021-01-11",
         "source_name": "Ministry of Health",
         "source_website": "https:\/\/www.data.gov.gr\/datasets\/mdg_emvolio\/"
     },
@@ -317,7 +317,7 @@
             "Sputnik V"
         ],
         "vaccinations_total": "25",
-        "total_vaccinations_per_hundred": "0.42",
+        "total_vaccinations_per_hundred": "0.48",
         "last_update_date": "2020-12-30",
         "source_name": "National Health Security Agency",
         "source_website": "https:\/\/apnews.com\/article\/cabinets-health-guinea-coronavirus-pandemic-africa-de2adf7f939e1bb3eeedcd25aa6c4aa4"
@@ -332,11 +332,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "42549",
-        "total_vaccinations_per_hundred": "0.44",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "71000",
+        "total_vaccinations_per_hundred": "0.73",
+        "last_update_date": "2021-01-11",
         "source_name": "Government of Hungary",
-        "source_website": "https:\/\/koronavirus.gov.hu\/cikkek\/orszagos-tisztifoorvos-jovo-kedden-ujabb-39-ezer-ember-szamara-erkezik-oltoanyag"
+        "source_website": "https:\/\/koronavirus.gov.hu\/cikkek\/operativ-torzs-ketfele-vakcina-erkezik-kedden-magyarorszagra"
     },
     {
         "country": "Iceland",
@@ -396,9 +396,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "643219",
-        "total_vaccinations_per_hundred": "1.06",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "654362",
+        "total_vaccinations_per_hundred": "1.08",
+        "last_update_date": "2021-01-11",
         "source_name": "Extraordinary commissioner for the Covid-19 emergency",
         "source_website": "https:\/\/github.com\/italia\/covid19-opendata-vaccini"
     },
@@ -604,9 +604,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "108294",
-        "total_vaccinations_per_hundred": "0.56",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "125190",
+        "total_vaccinations_per_hundred": "0.65",
+        "last_update_date": "2021-01-11",
         "source_name": "Government of Romania",
         "source_website": "https:\/\/vaccinare-covid.gov.ro\/comunicate-oficiale\/"
     },
@@ -700,9 +700,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "19930",
-        "total_vaccinations_per_hundred": "0.96",
-        "last_update_date": "2021-01-09",
+        "vaccinations_total": "20546",
+        "total_vaccinations_per_hundred": "0.99",
+        "last_update_date": "2021-01-10",
         "source_name": "National Institute of Public Health, via Sledilnik",
         "source_website": "https:\/\/covid-19.sledilnik.org\/en\/"
     },
