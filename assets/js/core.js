@@ -81,7 +81,7 @@ function vaccinesFormatter(value, row, index) {
         var c = data.toLowerCase().replace(' ','-').replace('/','-')
         vaccines += '<div class="w-100 h-100 d-flex align-items-center justify-content-center pl-2 pr-2 vaccine vaccine-'+c+'">'+data+'</div>';
     });
-    return '<div class="d-flex align-content-around position-relative" style="margin-left: -1px; width: 101%;">'+vaccines+'</div>'
+    return '<div class="d-flex align-content-around position-relative" style="margin-left: -1px; width: 100.2%;">'+vaccines+'</div>'
 }
 
 //-- Hundred
@@ -98,7 +98,7 @@ function hundredFormatter(value, row, index) {
         var color = "#000";
     }
 
-    return '<div class="d-flex align-items-center pl-2 pr-2 position-relative hundred" style="margin-left: -1px; width: 101%; border-top-color: '+chroma(colorHex).darken(0.1)+'; background-color: '+colorHex+'; color: '+color+'">'+value+'</div>';
+    return '<div class="d-flex align-items-center pl-2 pr-2 position-relative hundred" style="margin-left: -1px; width: 100.2%; border-top-color: '+chroma(colorHex).darken(0.1)+'; background-color: '+colorHex+'; color: '+color+'">'+value+'</div>';
 }
 
 //-- Total
