@@ -397,8 +397,8 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "654362",
-        "total_vaccinations_per_hundred": "1.08",
+        "vaccinations_total": "701623",
+        "total_vaccinations_per_hundred": "1.16",
         "last_update_date": "2021-01-11",
         "source_name": "Extraordinary commissioner for the Covid-19 emergency",
         "source_website": "https:\/\/github.com\/italia\/covid19-opendata-vaccini"
@@ -509,11 +509,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "31000",
-        "total_vaccinations_per_hundred": "0.18",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "35500",
+        "total_vaccinations_per_hundred": "0.21",
+        "last_update_date": "2021-01-11",
         "source_name": "National Institute for Public Health and the Environment",
-        "source_website": "https:\/\/www.lnaz.nl\/nieuws\/31000-medewerkers-acute-zorg-gevaccineerd"
+        "source_website": "https:\/\/twitter.com\/hugodejonge\/status\/1348725466010628098?s=20"
     },
     {
         "country": "Northern Ireland",
