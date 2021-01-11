@@ -172,11 +172,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "3901",
-        "total_vaccinations_per_hundred": "0.45",
-        "last_update_date": "2021-01-06",
+        "vaccinations_total": "6035",
+        "total_vaccinations_per_hundred": "0.69",
+        "last_update_date": "2021-01-10",
         "source_name": "Ministry of Health",
-        "source_website": "https:\/\/cyprus-mail.com\/2021\/01\/06\/coronavirus-almost-4000-got-the-jab-since-december-27\/"
+        "source_website": "https:\/\/gr.euronews.com\/2021\/01\/11\/kypros-pyli-emvoliasmou-oles-plirofories-diathesima-kia-alla-rantevou-gia-emvoliasmous"
     },
     {
         "country": "Czechia",
@@ -236,9 +236,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "10749",
-        "total_vaccinations_per_hundred": "0.81",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "10972",
+        "total_vaccinations_per_hundred": "0.83",
+        "last_update_date": "2021-01-11",
         "source_name": "National Health Board",
         "source_website": "https:\/\/www.terviseamet.ee\/et\/uudised"
     },
@@ -492,11 +492,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "74794",
+        "vaccinations_total": "81300",
         "total_vaccinations_per_hundred": "0.06",
-        "last_update_date": "2021-01-09",
+        "last_update_date": "2021-01-10",
         "source_name": "Secretary of Health",
-        "source_website": "https:\/\/www.gob.mx\/salud\/prensa\/008-atencion-medica-oportuna-puede-evitar-complicaciones-y-fallecimientos-por-covid-19-secretaria-de-salud?idiom=es"
+        "source_website": "https:\/\/www.gob.mx\/salud\/prensa\/009-confirma-secretaria-de-salud-primer-caso-de-nueva-variante-de-sars-cov-2?idiom=es"
     },
     {
         "country": "Netherlands",
@@ -572,11 +572,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "198787",
-        "total_vaccinations_per_hundred": "0.53",
-        "last_update_date": "2021-01-09",
+        "vaccinations_total": "203053",
+        "total_vaccinations_per_hundred": "0.54",
+        "last_update_date": "2021-01-11",
         "source_name": "Ministry of Health",
-        "source_website": "https:\/\/polandin.com\/51721587\/covid19-10548-new-infections-in-poland"
+        "source_website": "https:\/\/twitter.com\/szczepimysie\/status\/1348564252215402498"
     },
     {
         "country": "Portugal",
@@ -588,11 +588,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "70000",
-        "total_vaccinations_per_hundred": "0.69",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "74099",
+        "total_vaccinations_per_hundred": "0.73",
+        "last_update_date": "2021-01-11",
         "source_name": "National Health Service",
-        "source_website": "https:\/\/www.sns.gov.pt\/monitorizacao-do-sns\/vacinas-covid-19\/"
+        "source_website": "https:\/\/24.sapo.pt\/atualidade\/artigos\/covid-19-ja-foram-vacinadas-74-099-pessoas-em-portugal\/"
     },
     {
         "country": "Romania",
@@ -684,9 +684,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "19727",
-        "total_vaccinations_per_hundred": "0.36",
-        "last_update_date": "2021-01-07",
+        "vaccinations_total": "26251",
+        "total_vaccinations_per_hundred": "0.48",
+        "last_update_date": "2021-01-08",
         "source_name": "Ministry of Health",
         "source_website": "https:\/\/korona.gov.sk\/koronavirus-na-slovensku-v-cislach\/"
     },
