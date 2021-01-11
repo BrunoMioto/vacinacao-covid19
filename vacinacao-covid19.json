@@ -269,11 +269,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "80000",
-        "total_vaccinations_per_hundred": "0.12",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "138531",
+        "total_vaccinations_per_hundred": "0.21",
+        "last_update_date": "2021-01-11",
         "source_name": "Ministry of Health",
-        "source_website": "https:\/\/twitter.com\/olivierveran\/status\/1347616253490450433"
+        "source_website": "https:\/\/twitter.com\/nicolasberrod\/status\/1348721883634692100"
     },
     {
         "country": "Germany",
@@ -365,11 +365,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "15314",
-        "total_vaccinations_per_hundred": "0.31",
-        "last_update_date": "2021-01-07",
+        "vaccinations_total": "35000",
+        "total_vaccinations_per_hundred": "0.71",
+        "last_update_date": "2021-01-11",
         "source_name": "Health Service Executive",
-        "source_website": "https:\/\/twitter.com\/newschambers\/status\/1347187910961999873"
+        "source_website": "https:\/\/twitter.com\/newschambers\/status\/1348701763776503808"
     },
     {
         "country": "Israel",
