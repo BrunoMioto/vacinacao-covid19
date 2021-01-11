@@ -218,11 +218,12 @@
             "alpha3": "gbr-eng"
         },
         "vaccines": [
+            "Oxford\/AstraZeneca",
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "1112866",
-        "total_vaccinations_per_hundred": "1.98",
-        "last_update_date": "2021-01-03",
+        "vaccinations_total": "2333764",
+        "total_vaccinations_per_hundred": "4.15",
+        "last_update_date": "2021-01-11",
         "source_name": "Government of the United Kingdom",
         "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
     },
@@ -380,8 +381,8 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "1811885",
-        "total_vaccinations_per_hundred": "20.93",
+        "vaccinations_total": "1819328",
+        "total_vaccinations_per_hundred": "21.02",
         "last_update_date": "2021-01-11",
         "source_name": "Government of Israel",
         "source_website": "https:\/\/datadashboard.health.gov.il\/COVID-19\/general"
@@ -522,11 +523,12 @@
             "alpha3": "gbr-nir"
         },
         "vaccines": [
+            "Oxford\/AstraZeneca",
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "41956",
-        "total_vaccinations_per_hundred": "2.22",
-        "last_update_date": "2021-01-03",
+        "vaccinations_total": "91954",
+        "total_vaccinations_per_hundred": "4.86",
+        "last_update_date": "2021-01-11",
         "source_name": "Government of the United Kingdom",
         "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
     },
@@ -650,11 +652,12 @@
             "alpha3": "gbr-sct"
         },
         "vaccines": [
+            "Oxford\/AstraZeneca",
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "113495",
-        "total_vaccinations_per_hundred": "2.08",
-        "last_update_date": "2021-01-03",
+        "vaccinations_total": "163377",
+        "total_vaccinations_per_hundred": "2.99",
+        "last_update_date": "2021-01-11",
         "source_name": "Government of the United Kingdom",
         "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
     },
@@ -716,9 +719,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "277976",
-        "total_vaccinations_per_hundred": "0.59",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "406091",
+        "total_vaccinations_per_hundred": "0.87",
+        "last_update_date": "2021-01-11",
         "source_name": "Ministry of Health",
         "source_website": "https:\/\/www.mscbs.gob.es\/profesionales\/saludPublica\/ccayes\/alertasActual\/nCov\/vacunaCovid19.htm"
     },
@@ -762,11 +765,12 @@
             "alpha3": "gbr"
         },
         "vaccines": [
+            "Oxford\/AstraZeneca",
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "1317745",
-        "total_vaccinations_per_hundred": "1.94",
-        "last_update_date": "2021-01-03",
+        "vaccinations_total": "2675213",
+        "total_vaccinations_per_hundred": "3.94",
+        "last_update_date": "2021-01-11",
         "source_name": "Government of the United Kingdom",
         "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
     },
@@ -781,9 +785,9 @@
             "Moderna",
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "6688231",
-        "total_vaccinations_per_hundred": "2.02",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "8987322",
+        "total_vaccinations_per_hundred": "2.72",
+        "last_update_date": "2021-01-11",
         "source_name": "Centers for Disease Control and Prevention",
         "source_website": "https:\/\/covid.cdc.gov\/covid-data-tracker\/#vaccinations"
     },
@@ -795,11 +799,12 @@
             "alpha3": "gbr-wls"
         },
         "vaccines": [
+            "Oxford\/AstraZeneca",
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "49428",
-        "total_vaccinations_per_hundred": "1.57",
-        "last_update_date": "2021-01-03",
+        "vaccinations_total": "86118",
+        "total_vaccinations_per_hundred": "2.73",
+        "last_update_date": "2021-01-11",
         "source_name": "Government of the United Kingdom",
         "source_website": "https:\/\/coronavirus.data.gov.uk\/details\/healthcare"
     }
