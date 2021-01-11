@@ -46,13 +46,16 @@ $(document).ready( function () {
 
 //-- Total
 function totalLocal(data) {
-    return '<strong>Totais: </strong>'+data.length+' países'
+    var total = data.length - 1; // Remove United Kingdom
+    return '<strong>Totais: </strong>'+total+' países'
 }
 function totalVaccinations(data) {
     var field = this.field
     var total = 0;
     $.each(data,function(i, data){
-        total = Number(total) + Number(data.vaccinations_total);
+        if(data.iso_code.alpha3 != 'gbr') {
+            total = Number(total) + Number(data.vaccinations_total);
+        }
     });
 
     var total = numeral(total);
