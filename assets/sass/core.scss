@@ -102,9 +102,7 @@ table.table-bordered {
 .fixed-table-header .sortable {
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
+    align-items: center;
 }
 
 .selected .vaccine,

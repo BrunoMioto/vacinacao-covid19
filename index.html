@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link rel="stylesheet" href="style.min.css?v=1610399493">
+		<link rel="stylesheet" href="style.min.css?v=1610401259">
 		<link rel="preconnect" href="//fonts.gstatic.com">
 		<link rel="preconnect" href="//kit-free.fontawesome.com">
 		<link rel="stylesheet" href="//kit-free.fontawesome.com/releases/latest/css/free.min.css">
@@ -37,8 +37,8 @@
 	</head>
 	<body>
 		<div id="info" class="info">
-			Apenas países que divulgaram o número de doses aplicadas.<br/>
-			Última atualização: <span class="font-weight-bold timestamp"></span>
+			Última atualização: <i class="fas fa-clock"></i> <span class="font-weight-bold timestamp"></span><br/>
+			Fonte dos dados: <a href="https://ourworldindata.org/" target="_blank"><i class="fas fa-link"></i> Our World in Data</a>
 		</div>
 		<table
 			id="table"
@@ -66,11 +66,11 @@
 			<thead>
 				<tr>
 					<th data-field="state" data-checkbox="true" data-sortable="true"></th>
-					<th data-field="country_pt" data-sortable="true" data-footer-formatter="totalLocal" data-formatter="localFormatter">Local</th>
-					<th data-field="vaccines"  data-searchable="false" data-cell-style="noPadding" data-formatter="vaccinesFormatter" data-sortable="true">Vacinas</th>
-					<th data-field="last_update_date" data-searchable="false" data-sortable="true" class="text-nowrap">Última atualização</th>
-					<th data-field="total_vaccinations_per_hundred" data-cell-style="noPadding"  data-searchable="false" data-sortable="true" data-formatter="hundredFormatter" class="text-nowrap">Doses aplicadas<br/>por 100 habitantes</th>
-					<th data-field="vaccinations_total" data-searchable="false" data-sortable="true" data-footer-formatter="totalVaccinations" data-formatter="totalFormatter">Doses aplicadas</th>
+					<th data-field="country_pt" data-sortable="true" data-footer-formatter="totalLocal" data-formatter="localFormatter"><i class="fas fa-globe mr-2"></i> Local</th>
+					<th data-field="vaccines"  data-searchable="false" data-cell-style="noPadding" data-formatter="vaccinesFormatter" data-sortable="true"><i class="fas fa-syringe mr-2"></i>Vacinas</th>
+					<th data-field="last_update_date" data-searchable="false" data-sortable="true" class="text-nowrap"><i class="fas fa-calendar mr-2"></i> Última atualização</th>
+					<th data-field="total_vaccinations_per_hundred" data-cell-style="noPadding"  data-searchable="false" data-sortable="true" data-formatter="hundredFormatter" class="text-nowrap"><i class="fas fa-user-shield mr-2"></i></i> Doses aplicadas<br/>por 100 habitantes</th>
+					<th data-field="vaccinations_total" data-searchable="false" data-sortable="true" data-footer-formatter="totalVaccinations" data-formatter="totalFormatter"><i class="fas fa-syringe mr-2"></i> Doses aplicadas</th>
 				</tr>
 			</thead>
 		</table>
