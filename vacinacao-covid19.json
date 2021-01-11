@@ -42,11 +42,11 @@
             "Pfizer\/BioNTech",
             "Sinopharm"
         ],
-        "vaccinations_total": "89250",
-        "total_vaccinations_per_hundred": "5.25",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "92598",
+        "total_vaccinations_per_hundred": "5.44",
+        "last_update_date": "2021-01-11",
         "source_name": "Ministry of Health",
-        "source_website": "https:\/\/twitter.com\/MOH_Bahrain\/status\/1348359483832086536"
+        "source_website": "https:\/\/twitter.com\/MOH_Bahrain\/status\/1348718836925792262"
     },
     {
         "country": "Belgium",
@@ -269,11 +269,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "138531",
+        "vaccinations_total": "138351",
         "total_vaccinations_per_hundred": "0.21",
         "last_update_date": "2021-01-11",
         "source_name": "Ministry of Health",
-        "source_website": "https:\/\/twitter.com\/nicolasberrod\/status\/1348721883634692100"
+        "source_website": "https:\/\/solidarites-sante.gouv.fr\/actualites\/presse\/communiques-de-presse\/article\/vaccination-contre-la-covid-en-france-au-11-janvier-2021"
     },
     {
         "country": "Germany",
@@ -381,8 +381,8 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "1819328",
-        "total_vaccinations_per_hundred": "21.02",
+        "vaccinations_total": "1850419",
+        "total_vaccinations_per_hundred": "21.38",
         "last_update_date": "2021-01-11",
         "source_name": "Government of Israel",
         "source_website": "https:\/\/datadashboard.health.gov.il\/COVID-19\/general"
@@ -638,11 +638,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "100000",
-        "total_vaccinations_per_hundred": "0.29",
-        "last_update_date": "2021-01-06",
+        "vaccinations_total": "178337",
+        "total_vaccinations_per_hundred": "0.51",
+        "last_update_date": "2021-01-11",
         "source_name": "Ministry of Hajj and Umrah",
-        "source_website": "https:\/\/english.alarabiya.net\/en\/coronavirus\/2021\/01\/06\/Coronavirus-Coronavirus-Saudi-Arabia-s-Hajj-Umrah-minister-advises-pilgrims-to-get-vaccinated"
+        "source_website": "https:\/\/coronamap.sa\/"
     },
     {
         "country": "Scotland",
