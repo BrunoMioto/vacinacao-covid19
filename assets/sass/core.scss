@@ -1,0 +1,123 @@
+html,
+body {
+    overflow: hidden;
+    background-color: #f4f4f4;
+    height: 100%;
+}
+body {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+}
+.info {
+    font-size: .9em;
+}
+.bs-bars { margin-bottom: 0 !important; }
+.country {
+    text-overflow: ellipsis;
+    max-width: 124px;
+}
+@media (min-width: 992px) {
+    .country {
+        max-width: 100%;
+    }
+}
+
+/* Vaccines */
+.hundred {
+    border-top: 1px solid #fff;
+}
+.vaccine {
+    background-color: #f4f4f4;
+    color: #fff;
+    border-top: 1px solid #fff;
+    &-pfizer-biontech {
+        background-color: #377eb8;
+        border-top-color: #2d6a9c;
+    }
+    &-sputnik-v {
+        background-color: #e41a1c;
+        border-top-color: #c91618;
+    }
+    &-sinopharm {
+        background-color: #4daf4a;
+        border-top-color: #3d8c3b;
+    }
+    &-moderna {
+        background-color: #ffff33;
+        color: #000;
+        border-top-color: #e0e02d;
+    }
+    &-cnbg {
+        background-color: #984ea3;
+        border-top-color: #80418a;
+    }
+    &-sinovac {
+        background-color: #ff7f00;
+        border-top-color: #e67200;
+    }
+    &-oxford-astrazeneca {
+        background-color: #a65628;
+        border-top-color: #8c4922;
+    }
+    &-coronavac,
+    &-coronavac-butanta {
+        background-color: #8f8f8f;
+        border-top-color: #5e5e5e;
+    }
+}
+
+/* Table */
+.fixed-table-body,
+.fixed-table-header th,
+.fixed-table-footer th {
+    background-color: #fff;
+}			
+.fixed-table-header th {
+    border-bottom: 0 !important;
+}
+
+table.table-bordered {
+    border: 0 !important;
+}	
+.fixed-table-body {
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+    tbody {
+        tr {
+            &:first-child td {
+                border-top: 0 !important;
+            }
+            &:last-child td {
+                border-bottom: 0 !important;
+            }
+        }
+    }
+    thead th {
+        border-bottom: 0 !important;
+    }
+}
+
+.fixed-table-toolbar {
+    padding-left: 0.9rem;
+    padding-right: 1.1rem;
+}
+.bs-checkbox .sortable {
+    background-position: center !important;
+}
+.fixed-table-header .sortable {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.selected .vaccine,
+.selected .hundred {
+    filter: saturate(55%);
+}
+
+table { height: 1px; } 
+td > div,
+td,
+tr { height: 100%; }
