@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css">
 		<link rel="stylesheet" href="//cdn.datatables.net/fixedcolumns/3.3.2/css/fixedColumns.dataTables.min.css">
@@ -293,7 +293,7 @@
 
 			function resize() {
 				var hFooter = $('footer').innerHeight();
-				var hWindow = document.body.clientHeight;
+				var hWindow = document.documentElement.clientHeight;
 				$('.resize').css({'height':(hWindow - hFooter)});
 			}
 			
@@ -343,6 +343,13 @@
 						paging: false,
 						info: false,
 						order: [[ 0, "asc" ]],
+						"columns": [
+							{ "type": "html" },
+							{ "type": "html" },
+							{ "type": "date" },
+							null,
+							{ "type": "num-fmt" }
+						],
 						language: {
 							url: '//cdn.datatables.net/plug-ins/1.10.22/i18n/Portuguese-Brasil.json'
 						},
