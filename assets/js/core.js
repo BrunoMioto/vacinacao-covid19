@@ -47,7 +47,7 @@ $(document).ready( function () {
 //-- Total
 function totalLocal(data) {
     var total = data.length - 1; // Remove United Kingdom
-    return '<strong>Totais: </strong>'+total+' países'
+    return 'Totais: '+total+' países'
 }
 function totalVaccinations(data) {
     var field = this.field
@@ -60,16 +60,6 @@ function totalVaccinations(data) {
 
     var total = numeral(total);
     return total.format('0,0');
-}
-function totalFormat(column) {
-    return {
-        country_pt: {
-            css: {'font-weight': 'normal'}
-        },
-        vaccinations_total: {
-            css: {'font-weight': 'normal'}
-        }
-    }[column.field]
 }
 
 //-- Loading
