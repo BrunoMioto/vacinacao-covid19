@@ -1,0 +1,35 @@
+{
+	"name": "Vacinação Covid19",
+	"version": "1.0.0",
+	"description": "Vacinação Covid19",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/altendorfme/vacinacao-covid19.git"
+	},
+	"author": "Vacinação Covid19",
+	"license": "MIT",
+	"dependencies": {
+		"autoprefixer": "^10.2.1",
+		"bootstrap": "^4.5.3",
+		"bootstrap-table": "^1.18.1",
+		"braces": "^3.0.2",
+		"chroma-js": "^2.1.0",
+		"csso": "^4.2.0",
+		"gulp": "^4.0.2",
+		"gulp-cli": "^2.3.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-csso": "^4.0.1",
+		"gulp-plumber": "^1.2.1",
+		"gulp-postcss": "^9.0.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-terser": "^2.0.1",
+		"gulp-watch": "^5.0.1",
+		"jquery": "^3.5.1",
+		"moment": "^2.29.1",
+		"numeral": "^2.0.6",
+		"popper.js": "^1.16.1",
+		"postcss": "^8.2.4"
+	}
+}
