@@ -284,8 +284,8 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "532878",
-        "total_vaccinations_per_hundred": "0.64",
+        "vaccinations_total": "613347",
+        "total_vaccinations_per_hundred": "0.73",
         "last_update_date": "2021-01-10",
         "source_name": "Robert Koch Institut",
         "source_website": "https:\/\/www.rki.de\/DE\/Content\/InfAZ\/N\/Neuartiges_Coronavirus\/Daten\/Impfquoten-Tab.html"
@@ -540,8 +540,8 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "17337",
-        "total_vaccinations_per_hundred": "0.32",
+        "vaccinations_total": "20833",
+        "total_vaccinations_per_hundred": "0.38",
         "last_update_date": "2021-01-10",
         "source_name": "Norwegian Institute of Public Health",
         "source_website": "https:\/\/www.fhi.no\/sv\/vaksine\/koronavaksinasjonsprogrammet\/koronavaksinasjonsstatistikk\/"
@@ -748,8 +748,8 @@
         "vaccines": [
             "Sinopharm"
         ],
-        "vaccinations_total": "1086568",
-        "total_vaccinations_per_hundred": "10.99",
+        "vaccinations_total": "1167251",
+        "total_vaccinations_per_hundred": "11.8",
         "last_update_date": "2021-01-11",
         "source_name": "National Emergency Crisis and Disaster Management Authority",
         "source_website": "https:\/\/covid19.ncema.gov.ae\/en"
