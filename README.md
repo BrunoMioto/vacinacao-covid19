@@ -31,6 +31,15 @@ Para visualização dos dados acesse ([Vacinação COVID-19](https://altendorfme
 ```
 
 ## Referências
+### Wrapper
 - https://github.com/owid/covid-19-data/
 - https://github.com/stefangabos/world_countries/
+
+### Visualização
 - https://github.com/hjnilsson/country-flags/
+- https://github.com/jquery/jquery
+- https://github.com/gka/chroma.js/
+- https://github.com/moment/moment/
+- https://github.com/adamwdraper/Numeral-js
+- https://github.com/DataTables/DataTables
+- https://github.com/twbs/bootstrap
