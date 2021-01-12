@@ -3,11 +3,17 @@
 O JSON ([vacinacao-covid19.json](https://raw.githubusercontent.com/altendorfme/vacinacao-covid19/main/vacinacao-covid19.json "Our World in Data")) contém informações sobre a vacinação de COVID-19 em cada país, conforme atualização da [Our World in Data](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations "Our World in Data.").
 
 Para visualização dos dados acesse ([Vacinação COVID-19](https://vacinacao-covid19.com "Vacinação COVID-19")).
+O site contém:
+- <b>Nome do país</b>
+- <b>Vacinas utilizadas</b>
+- <b>Data da última atualização</b>
+- <b>Número de doses aplicadas por 100 habitantes</b> - Isso é contado como única dose, e pode não ser igual ao número total de pessoas vacinadas, dependendo do regime de dose específico (por exemplo, pessoas que recebem múltiplas doses).
+- <b>Número de doses aplicadas</b>
 
+Foram feitas as seguintes modificações para melhor visualização dos dados
 - Adicionado os dados ISO 3166-1 com 2 e 3 digitos.
 - Unificado os dados totais de vacinações por país.
 - Tradução para português dos países.
-- Número total de doses de vacinas por 100 pessoas na população total. Isso é contado como única dose, e pode não ser igual ao número total de pessoas vacinadas, dependendo do regime de dose específico (por exemplo, pessoas que recebem múltiplas doses).
 
 ## JSON
 ```json
