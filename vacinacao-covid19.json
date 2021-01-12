@@ -74,9 +74,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "13473",
-        "total_vaccinations_per_hundred": "0.19",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "14161",
+        "total_vaccinations_per_hundred": "0.2",
+        "last_update_date": "2021-01-12",
         "source_name": "Ministry of Health",
         "source_website": "https:\/\/coronavirus.bg\/bg\/statistika"
     },
@@ -91,9 +91,9 @@
             "Moderna",
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "319938",
-        "total_vaccinations_per_hundred": "0.85",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "359054",
+        "total_vaccinations_per_hundred": "0.95",
+        "last_update_date": "2021-01-11",
         "source_name": "COVID-19 Canada Open Data Working Group",
         "source_website": "https:\/\/github.com\/ishaberry\/Covid19Canada"
     },
@@ -204,9 +204,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "115932",
-        "total_vaccinations_per_hundred": "2",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "117104",
+        "total_vaccinations_per_hundred": "2.02",
+        "last_update_date": "2021-01-11",
         "source_name": "Statens Serum Institut",
         "source_website": "https:\/\/covid19.ssi.dk\/overvagningsdata\/vaccinationstilslutning"
     },
@@ -237,9 +237,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "10972",
-        "total_vaccinations_per_hundred": "0.83",
-        "last_update_date": "2021-01-11",
+        "vaccinations_total": "11896",
+        "total_vaccinations_per_hundred": "0.9",
+        "last_update_date": "2021-01-12",
         "source_name": "National Health Board",
         "source_website": "https:\/\/www.terviseamet.ee\/et\/uudised"
     },
@@ -253,9 +253,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "14196",
-        "total_vaccinations_per_hundred": "0.26",
-        "last_update_date": "2021-01-11",
+        "vaccinations_total": "17617",
+        "total_vaccinations_per_hundred": "0.32",
+        "last_update_date": "2021-01-12",
         "source_name": "THL via Helsingin Sanomat",
         "source_website": "https:\/\/github.com\/HS-Datadesk\/koronavirus-avoindata"
     },
@@ -285,9 +285,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "613347",
-        "total_vaccinations_per_hundred": "0.73",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "688782",
+        "total_vaccinations_per_hundred": "0.82",
+        "last_update_date": "2021-01-11",
         "source_name": "Robert Koch Institut",
         "source_website": "https:\/\/www.rki.de\/DE\/Content\/InfAZ\/N\/Neuartiges_Coronavirus\/Daten\/Impfquoten-Tab.html"
     },
@@ -333,11 +333,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "71000",
-        "total_vaccinations_per_hundred": "0.73",
-        "last_update_date": "2021-01-11",
+        "vaccinations_total": "78579",
+        "total_vaccinations_per_hundred": "0.81",
+        "last_update_date": "2021-01-12",
         "source_name": "Government of Hungary",
-        "source_website": "https:\/\/koronavirus.gov.hu\/cikkek\/operativ-torzs-ketfele-vakcina-erkezik-kedden-magyarorszagra"
+        "source_website": "https:\/\/koronavirus.gov.hu\/cikkek\/696-fovel-emelkedett-beazonositott-fertozottek-szama-es-elhunyt-128-beteg"
     },
     {
         "country": "Iceland",
@@ -381,9 +381,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "1850419",
-        "total_vaccinations_per_hundred": "21.38",
-        "last_update_date": "2021-01-11",
+        "vaccinations_total": "1854358",
+        "total_vaccinations_per_hundred": "21.42",
+        "last_update_date": "2021-01-12",
         "source_name": "Government of Israel",
         "source_website": "https:\/\/datadashboard.health.gov.il\/COVID-19\/general"
     },
@@ -397,8 +397,8 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "701623",
-        "total_vaccinations_per_hundred": "1.16",
+        "vaccinations_total": "718797",
+        "total_vaccinations_per_hundred": "1.19",
         "last_update_date": "2021-01-11",
         "source_name": "Extraordinary commissioner for the Covid-19 emergency",
         "source_website": "https:\/\/github.com\/italia\/covid19-opendata-vaccini"
@@ -429,9 +429,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "6933",
-        "total_vaccinations_per_hundred": "0.37",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "8274",
+        "total_vaccinations_per_hundred": "0.44",
+        "last_update_date": "2021-01-11",
         "source_name": "National Health Service",
         "source_website": "http:\/\/www.vmnvd.gov.lv\/lv\/covid-19\/1486-vakcinacija-pret-covid-19"
     },
@@ -542,9 +542,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "20833",
-        "total_vaccinations_per_hundred": "0.38",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "21211",
+        "total_vaccinations_per_hundred": "0.39",
+        "last_update_date": "2021-01-11",
         "source_name": "Norwegian Institute of Public Health",
         "source_website": "https:\/\/www.fhi.no\/sv\/vaksine\/koronavaksinasjonsprogrammet\/koronavaksinasjonsstatistikk\/"
     },
@@ -687,9 +687,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "26251",
-        "total_vaccinations_per_hundred": "0.48",
-        "last_update_date": "2021-01-08",
+        "vaccinations_total": "31785",
+        "total_vaccinations_per_hundred": "0.58",
+        "last_update_date": "2021-01-11",
         "source_name": "Ministry of Health",
         "source_website": "https:\/\/korona.gov.sk\/koronavirus-na-slovensku-v-cislach\/"
     },
@@ -703,9 +703,9 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "20546",
-        "total_vaccinations_per_hundred": "0.99",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "22484",
+        "total_vaccinations_per_hundred": "1.08",
+        "last_update_date": "2021-01-11",
         "source_name": "National Institute of Public Health, via Sledilnik",
         "source_website": "https:\/\/covid-19.sledilnik.org\/en\/"
     },
