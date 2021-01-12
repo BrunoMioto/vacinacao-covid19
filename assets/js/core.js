@@ -79,6 +79,9 @@ function vaccinesFormatter(value, row, index) {
 
 //-- Hundred
 function hundredFormatter(value, row, index) {
+    if(value == null) {
+        var value = 0;
+    }
     var colorHex = scale(value).hex();
     
     var contrast_ratio = 2;
