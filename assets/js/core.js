@@ -54,7 +54,7 @@ function totalVaccinations(data) {
     var total = 0;
     $.each(data,function(i, data){
         if(data.iso_code.alpha3 != 'gbr') {
-            total = Number(total) + Number(data.vaccinations_total);
+            total = Number(total) + Number(data.total_vaccinations);
         }
     });
 
