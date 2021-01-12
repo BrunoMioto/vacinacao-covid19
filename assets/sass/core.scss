@@ -8,17 +8,22 @@ body {
     position: relative;
     font-family: 'Roboto', sans-serif;
     font-size: .9em;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+html {
+    height: -webkit-fill-available;
 }
 .info {
     font-size: .9em;
 }
-.bs-bars { margin-bottom: 0 !important; }
+.bs-bars {
+    margin-bottom: 0 !important;
+}
 .country {
     text-overflow: ellipsis;
     max-width: 124px;
-}
-@media (min-width: 992px) {
-    .country {
+    @media (min-width: 992px) {
         max-width: 100%;
     }
 }
@@ -109,6 +114,13 @@ table.table-bordered {
 .selected .hundred {
     filter: saturate(55%);
 }
+
+.bs-bars {
+    @media (min-width: 992px) {
+        float: left !important;
+    }
+}
+
 
 table { height: 1px; } 
 td > div,

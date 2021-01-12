@@ -102,7 +102,13 @@ function totalFormatter(value, row, index) {
 
 //-- Local
 function localFormatter(value, row, index) {
-    return '<div class="d-flex align-items-center text-nowrap"><img class="d-inline-block mr-2" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags/svg/'+row.iso_code.alpha2+'.svg" width="20" /><span class="country overflow-hidden">'+value+'</span></div></td>'
+    var att = '';
+    var title = '';
+    if(row.iso_code.alpha3 == 'gbr') {
+        var att = '<strong>*</strong>';
+        var title = 'title="Apenas para visualização da vacinação de todos países e províncias que compõem o Reino Unido, esses dados não estão incluídos na somatória de doses ou países."';
+    }
+    return '<div class="d-flex align-items-center text-nowrap" '+title+'><img class="d-inline-block mr-2" src="https://cdn.jsdelivr.net/gh/hjnilsson/country-flags/svg/'+row.iso_code.alpha2+'.svg" width="20" /><span class="country overflow-hidden">'+value+att+'</span></div></td>'
 }
 
 //-- Style Row
