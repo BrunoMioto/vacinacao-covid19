@@ -12,21 +12,27 @@ Para visualização dos dados acesse ([Vacinação COVID-19](https://vacinacao-c
 ## JSON
 ```json
 [{
-        "country": "China",
-        "country_pt": "China",
-        "iso_code": {
-            "alpha2": "cn",
-            "alpha3": "zwe"
-        },
-        "vaccines": [
-            "CNBG",
-            "Sinovac"
-        ],
-        "vaccinations_total": "4500000",
-        "total_vaccinations_per_hundred": "0.31",
-        "last_update_date": "2020-12-31",
-        "source_name": "National Health Commission",
-        "source_website": "https:\/\/www.globaltimes.cn\/page\/202012\/1211515.shtml"
+	"country": "China",
+	"country_pt": "China",
+	"iso_code": {
+		"alpha2": "cn",
+		"alpha3": "chn"
+	},
+	"vaccines": [
+		"CNBG",
+		"Sinovac"
+	],
+	"total_vaccinations": "9000000",
+	"people_vaccinated": "9000000",
+	"people_fully_vaccinated": "",
+	"daily_vaccinations": "500000",
+	"total_vaccinations_per_hundred": "0.63",
+	"people_vaccinated_per_hundred": "0.63",
+	"people_fully_vaccinated_per_hundred": "",
+	"daily_vaccinations_per_million": "347",
+	"last_update_date": "2021-01-09",
+	"source_name": "National Health Commission",
+	"source_website": "http:\/\/www.scio.gov.cn\/xwfbh\/xwbfbh\/wqfbh\/44687\/44700\/zy44704\/Document\/1696668\/1696668.htm"
 }]
 ```
 
