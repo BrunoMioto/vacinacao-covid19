@@ -64,14 +64,18 @@ foreach($source_array as $data) {
     array_splice($vaccinations_array, 0, 1);
 
     foreach($vaccinations_array as $data) {
-        $location = $data[0];
+        $location= $data[0];
         if($location == $country) {
-            if(!empty($data[3])) {
-                $vaccinations_total = $data[3];
-            }
-            if(!empty($data[5])) {
-                $total_vaccinations_per_hundred = $data[5];
-            }
+            //$iso_code                            = $data[1];
+            //$date                                = $data[2];
+            $total_vaccinations                  = $data[3];
+            $people_vaccinated                   = $data[4];
+            $people_fully_vaccinated             = $data[5];
+            $daily_vaccinations                  = $data[6];
+            $total_vaccinations_per_hundred      = $data[7];
+            $people_vaccinated_per_hundred       = $data[8];
+            $people_fully_vaccinated_per_hundred = $data[9];
+            $daily_vaccinations_per_million      = $data[10];
         }
     }
 
@@ -94,12 +98,18 @@ foreach($source_array as $data) {
         'country' => $country,
         'country_pt' => $country_pt,
         'iso_code' => $iso_code,
-        'vaccines' => $vaccines,
-        'vaccinations_total' => $vaccinations_total,
-        'total_vaccinations_per_hundred' => $total_vaccinations_per_hundred,
-        'last_update_date' => $last_observation_date,
-        'source_name' => $source_name,
-        'source_website' => $source_website,
+        'vaccines' => (empty($vaccines)) ? null : $vaccines,
+        'total_vaccinations' => (empty($total_vaccinations)) ? null : $total_vaccinations,
+        'people_vaccinated' => (empty($people_vaccinated)) ? null : $people_vaccinated,
+        'people_fully_vaccinated' => (empty($people_fully_vaccinated)) ? null : $people_fully_vaccinated,
+        'daily_vaccinations' => (empty($daily_vaccinations)) ? null : $daily_vaccinations,
+        'total_vaccinations_per_hundred' => (empty($total_vaccinations_per_hundred)) ? null : $total_vaccinations_per_hundred,
+        'people_vaccinated_per_hundred' => (empty($people_vaccinated_per_hundred)) ? null : $people_vaccinated_per_hundred,
+        'people_fully_vaccinated_per_hundred' => (empty($people_fully_vaccinated_per_hundred)) ? null : $people_fully_vaccinated_per_hundred,
+        'daily_vaccinations_per_million' => (empty($daily_vaccinations_per_million)) ? null : $daily_vaccinations_per_million,
+        'last_update_date' => (empty($last_observation_date)) ? null : $last_observation_date,
+        'source_name' => (empty($source_name)) ? null : $source_name,
+        'source_website' => (empty($source_website)) ? null : $source_website,
     );
 
     array_push($result, $push);
