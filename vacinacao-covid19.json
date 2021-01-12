@@ -493,11 +493,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "81300",
-        "total_vaccinations_per_hundred": "0.06",
-        "last_update_date": "2021-01-10",
+        "vaccinations_total": "87060",
+        "total_vaccinations_per_hundred": "0.07",
+        "last_update_date": "2021-01-11",
         "source_name": "Secretary of Health",
-        "source_website": "https:\/\/www.gob.mx\/salud\/prensa\/009-confirma-secretaria-de-salud-primer-caso-de-nueva-variante-de-sars-cov-2?idiom=es"
+        "source_website": "https:\/\/www.gob.mx\/salud\/prensa\/010-mexico-podria-adquirir-hasta-24-millones-de-dosis-de-vacuna-rusa-sputnik-v-contra-covid-19?idiom=es"
     },
     {
         "country": "Netherlands",
@@ -558,11 +558,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "15907",
-        "total_vaccinations_per_hundred": "0.31",
-        "last_update_date": "2021-01-11",
+        "vaccinations_total": "18287",
+        "total_vaccinations_per_hundred": "0.36",
+        "last_update_date": "2021-01-12",
         "source_name": "Ministry of Health",
-        "source_website": "https:\/\/twitter.com\/OmaniMOH\/status\/1348541465841061888\/photo\/1"
+        "source_website": "https:\/\/twitter.com\/OmaniMOH\/status\/1348903015416287233"
     },
     {
         "country": "Poland",
@@ -574,11 +574,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "203053",
-        "total_vaccinations_per_hundred": "0.54",
-        "last_update_date": "2021-01-11",
+        "vaccinations_total": "257834",
+        "total_vaccinations_per_hundred": "0.68",
+        "last_update_date": "2021-01-12",
         "source_name": "Ministry of Health",
-        "source_website": "https:\/\/twitter.com\/szczepimysie\/status\/1348564252215402498"
+        "source_website": "https:\/\/twitter.com\/szczepimysie\/status\/1348930712859242496"
     },
     {
         "country": "Portugal",
@@ -590,11 +590,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "74099",
-        "total_vaccinations_per_hundred": "0.73",
-        "last_update_date": "2021-01-11",
+        "vaccinations_total": "70000",
+        "total_vaccinations_per_hundred": "0.69",
+        "last_update_date": "2021-01-08",
         "source_name": "National Health Service",
-        "source_website": "https:\/\/24.sapo.pt\/atualidade\/artigos\/covid-19-ja-foram-vacinadas-74-099-pessoas-em-portugal\/"
+        "source_website": "https:\/\/esriportugal.maps.arcgis.com\/apps\/opsdashboard\/index.html#\/acf023da9a0b4f9dbb2332c13f635829"
     },
     {
         "country": "Romania",
@@ -735,11 +735,11 @@
         "vaccines": [
             "Pfizer\/BioNTech"
         ],
-        "vaccinations_total": "40000",
-        "total_vaccinations_per_hundred": "0.4",
-        "last_update_date": "2021-01-04",
+        "vaccinations_total": "79095",
+        "total_vaccinations_per_hundred": "0.78",
+        "last_update_date": "2021-01-10",
         "source_name": "Swedish Medical Products Agency",
-        "source_website": "https:\/\/www.lakemedelsverket.se\/sv\/nyheter\/lagesrapport-misstankta-biverkningar-av-vaccination-mot-covid-19"
+        "source_website": "https:\/\/www.folkhalsomyndigheten.se\/smittskydd-beredskap\/utbrott\/aktuella-utbrott\/covid-19\/vaccination-mot-covid-19\/statistik-over-vaccinerade-mot-covid-19\/"
     },
     {
         "country": "United Arab Emirates",
